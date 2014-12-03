@@ -32,12 +32,16 @@ module.exports = function (grunt) {
         files: ['bower.json'],
         tasks: ['bowerInstall']
       },
-      js: {
-        files: ['<%= config.app %>/scripts/{,*/}*.js'],
-        tasks: ['jshint'],
+      coffee: {
+        files: ['<%= config.app %>/scripts/{,*/}*.{coffee,litcoffee,coffee.md}'],
+        tasks: ['coffee:chrome'],
         options: {
           livereload: true
         }
+      },
+      compass: {
+        files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
+        tasks: ['compass:chrome']
       },
       gruntfile: {
         files: ['Gruntfile.js']
@@ -126,12 +130,76 @@ module.exports = function (grunt) {
       }
     },
 
+    // Compiles CoffeeScript to JavaScript
+    coffee: {
+      chrome: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.app %>/scripts',
+          src: '{,*/}*.{coffee,litcoffee,coffee.md}',
+          dest: '<%= config.app %>/scripts',
+          ext: '.js'
+        }]
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.app %>/scripts',
+          src: '{,*/}*.{coffee,litcoffee,coffee.md}',
+          dest: '<%= config.app %>/scripts',
+          ext: '.js'
+        }]
+      },
+      test: {
+        files: [{
+          expand: true,
+          cwd: 'test/spec',
+          src: '{,*/}*.coffee',
+          dest: './spec',
+          ext: '.js'
+        }]
+      }
+    },
+
+     // Compiles Sass to CSS and generates necessary files if requested
+    compass: {
+      options: {
+        sassDir: '<%= config.app %>/styles',
+        cssDir: '<%= config.dist %>/styles',
+        generatedImagesDir: '<%= config.dist %>/images/generated',
+        imagesDir: '<%= config.app %>/images',
+        javascriptsDir: '<%= config.app %>/scripts',
+        fontsDir: '<%= config.app %>/styles/fonts',
+        importPath: '<%= config.app %>/bower_components',
+        httpImagesPath: '/images',
+        httpGeneratedImagesPath: '/images/generated',
+        httpFontsPath: '/styles/fonts',
+        relativeAssets: false,
+        assetCacheBuster: false
+      },
+      chrome: {
+        options: {
+          cssDir: '<%= config.app %>/styles',
+          generatedImagesDir: '<%= config.app %>/images/generated',
+          debugInfo: true
+        }
+      },
+      dist: {
+      },
+      test: {
+      }
+    },
+
     // Automatically inject Bower components into the HTML file
     bowerInstall: {
       app: {
         src: [
           '<%= config.app %>/*.html'
         ]
+      },
+      sass: {
+        src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
+        ignorePath: '<%= config.app %>/bower_components/'
       }
     },
 
@@ -249,12 +317,18 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up build process
     concurrent: {
       chrome: [
+        'coffee:chrome',
+        'compass:chrome',
       ],
       dist: [
+        'coffee:dist',
+        'compass:dist',
         'imagemin',
         'svgmin'
       ],
       test: [
+        'coffee:test',
+        'compass:test',
       ]
     },
 
@@ -281,7 +355,7 @@ module.exports = function (grunt) {
         options: {
           archive: function() {
             var manifest = grunt.file.readJSON('app/manifest.json');
-            return 'package/Railstutorial.jp ReDesign-' + manifest.version + '.zip';
+            return 'package/railstutorialjp redesign-' + manifest.version + '.zip';
           }
         },
         files: [{
