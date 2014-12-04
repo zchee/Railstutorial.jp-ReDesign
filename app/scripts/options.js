@@ -1,3 +1,5 @@
-'use strict';
+(function() {
+  'use strict';
+  console.log('\'Allo \'Allo! Option');
 
-console.log('\'Allo \'Allo! Option');
+}).call(this);

@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
+  grunt.loadNpmTasks('grunt-exec');
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
@@ -22,6 +23,14 @@ module.exports = function (grunt) {
   };
 
   grunt.initConfig({
+
+    exec: {
+      guard: {
+        command: 'guard',
+        stdout: false,
+        stderr: false
+      }
+    },
 
     // Project settings
     config: config,
@@ -329,6 +338,10 @@ module.exports = function (grunt) {
       test: [
         'coffee:test',
         'compass:test',
+      ],
+      watchguard: [
+        'watch',
+        'exec:guard'
       ]
     },
 
@@ -373,7 +386,7 @@ module.exports = function (grunt) {
       'jshint',
       'concurrent:chrome',
       'connect:chrome',
-      'watch'
+      'concurrent:watchguard'
     ]);
   });
 

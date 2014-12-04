@@ -1,22 +1,31 @@
-'use strict';
+(function() {
+  'use strict';
 
-// Reload client for Chrome Apps & Extensions.
-// The reload client has a compatibility with livereload.
-// WARNING: only supports reload command.
+  /*
+  Reload client for Chrome Apps & Extensions.
+  The reload client has a compatibility with livereload.
+  WARNING: only supports reload command.
+   */
+  var LIVERELOAD_HOST, LIVERELOAD_PORT, connection;
 
-var LIVERELOAD_HOST = 'localhost:';
-var LIVERELOAD_PORT = 35729;
-var connection = new WebSocket('ws://' + LIVERELOAD_HOST + LIVERELOAD_PORT + '/livereload');
+  LIVERELOAD_HOST = 'localhost:';
 
-connection.onerror = function (error) {
-  console.log('reload connection got error' + JSON.stringify(error));
-};
+  LIVERELOAD_PORT = 35729;
 
-connection.onmessage = function (e) {
-  if (e.data) {
-    var data = JSON.parse(e.data);
-    if (data && data.command === 'reload') {
-      chrome.runtime.reload();
+  connection = new WebSocket('ws://' + LIVERELOAD_HOST + LIVERELOAD_PORT + '/livereload');
+
+  connection.onerror = function(e) {
+    return console.log('reload connection got error' + JSON.stringify(e));
+  };
+
+  connection.onmessage = function(e) {
+    var data;
+    if (e.data) {
+      data = JSON.parse(e.data);
+      if (data && data.command === 'reload') {
+        return chrome.runtime.reload();
+      }
     }
-  }
-};
+  };
+
+}).call(this);
