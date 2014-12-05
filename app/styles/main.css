@@ -706,71 +706,59 @@ th {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\000034}}
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre,
-a,
-abbr,
-acronym,
-address,
-code,
-del,
-dfn,
-em,
-img,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-caption,
-tbody,
-tfoot,
-thead,
-tr {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\000035}}
+.hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\000038}}
+.show {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000311}}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
   font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Verdana, Meiryo, sans-serif !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000314}}
 body {
   background: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000317}}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  border: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000324}}
+#book_wrap #book > h2.author {
+  width: inherit;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000331}}
 #book_wrap #book p {
   line-height: 1.7em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000335}}
 #book_wrap #book a.heading {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000338}}
 #book_wrap #book a:hover.heading {
   color: #fff !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000342}}
 #book_wrap #book h1.chapter {
-  width: 101.6%;
+  width: 101.7%;
   padding: 1em 1em;
   margin-left: -38px;
   background: #c52f24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000348}}
 #book_wrap #book h2 {
   width: 108.1%;
   padding: .5em;
@@ -780,11 +768,11 @@ body {
   color: #fff;
   background: #c52f24;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000356}}
 #book_wrap #book h2 a.heading {
   font-size: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000360}}
 #book_wrap #book h3 {
   padding: .5em;
   margin-top: .75em;
@@ -792,15 +780,15 @@ body {
   color: #fff;
   background: #d94338;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000366}}
 #book_wrap #book h3 a.heading {
-  font-size: 80%;
+  font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000370}}
 #book_wrap #book .codelisting {
   width: 670px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000372}}
 #book_wrap #book .codelisting .listing {
   width: 670px;
   color: #fff;
@@ -808,13 +796,13 @@ body {
   border: 1px solid #999999;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000378}}
 #book_wrap #book .codelisting .listing .header {
   display: inline-block;
   padding: .3em .3em;
   line-height: 1em .5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000384}}
 #book_wrap #book .codelisting .listing .description:last-child {
   display: block;
   padding: .3em .5em;
@@ -822,32 +810,38 @@ body {
   color: darkgreen;
   background: #e0e0e0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000390}}
 #book_wrap #book .codelisting .listing .description:last-child:before {
   content: "file: ";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000396}}
 #book_wrap #book .codelisting .code {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\0000398}}
 #book_wrap #book .codelisting .code .highlight {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003100}}
 #book_wrap #book .codelisting .code .highlight pre {
+  padding: .5em 0;
+  margin-top: 0;
+  margin-bottom: 0;
   overflow-y: hidden !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003105}}
 #book_wrap #book .codelisting .code .highlight pre span {
   font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
   font-size: 85%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003116}}
 #book_wrap #book .code .highlight pre {
+  padding: .5em 0;
+  margin-top: 0;
+  margin-bottom: 0;
   overflow-y: hidden !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/main\.scss}line{font-family:\00003121}}
 #book_wrap #book .code .highlight pre span {
   font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
   font-size: 85%;

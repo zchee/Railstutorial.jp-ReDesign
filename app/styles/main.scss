@@ -1,148 +1,128 @@
-@import '_hp5b';
-@import '_normalize';
+@import "_hp5b";
+@import "_normalize";
+// @import "_toc";
 
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre,
-a,
-abbr,
-acronym,
-address,
-code,
-del,
-dfn,
-em,
-img,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-caption,
-tbody,
-tfoot,
-thead,
-tr {
-  // font-family: "Hiragino Kaku Gothic ProN" !important;
-  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Verdana, Meiryo, sans-serif !important;
+.hidden {
+  display: none;
+}
+.show {
+  display: block !important;
+}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Verdana, Meiryo, sans-serif !important;
 }
 body {
-  background: #000;
+    background: #000;
+}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+    border: 0 !important;
 }
 #book_wrap #book {
-  p {
-    line-height: 1.7em;
-  }
-  a {
-    &.heading {
-      color: #fff;
+    // & > h2.contents {
+    //     display: none;
+    // }
+    & > h2.author {
+        width: inherit;
+        padding: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        background: inherit;
     }
-    &:hover.heading {
-      color: #fff !important;
+    p {
+        line-height: 1.7em;
     }
-  }
-  h1.chapter {
-    width: 101.6%;
-    padding: 1em 1em;
-    margin-left: -38px;
-
-    background: #c52f24;
-  }
-  h2 {
-    width: 108.1%;
-    padding: .5em;
-    margin-top: .75em;
-    margin-bottom: .5em;
-    margin-left: -38px;
-
-    color: #fff;
-
-    background: #c52f24;
-    a.heading {
-      font-size: 80%;
-    }
-  }
-  h3 {
-    padding: .5em;
-    margin-top: .75em;
-    margin-bottom: .5em;
-
-    color: #fff;
-
-    background: #d94338;
-    a.heading {
-      font-size: 80%;
-    }
-  }
-  .codelisting {
-    width: 670px;
-    .listing {
-      width: 670px;
-
-      color: #fff;
-
-      background: #2196f3;
-      border: 1px solid rgb(153, 153, 153);
-      border-bottom: none;
-      .header {
-        display: inline-block;
-        padding: .3em .3em;
-
-        line-height: 1em .5em;
-      }
-      .description {
-        &:last-child {
-          display: block;
-          padding: .3em .5em;
-
-          font-size: 100%;
-          color: rgb(0, 100, 0);
-
-          background: #e0e0e0;
-          &:before {
-            content: "file: ";
-          }
+    a {
+        &.heading {
+            color: #fff;
         }
-      }
+        &:hover.heading {
+            color: #fff !important;
+        }
+    }
+    h1.chapter {
+        width: 101.7%;
+        padding: 1em 1em;
+        margin-left: -38px;
+        background: #c52f24;
+    }
+    h2 {
+        width: 108.1%;
+        padding: .5em;
+        margin-top: .75em;
+        margin-bottom: .5em;
+        margin-left: -38px;
+        color: #fff;
+        background: #c52f24;
+        a.heading {
+            font-size: 80%;
+        }
+    }
+    h3 {
+        padding: .5em;
+        margin-top: .75em;
+        margin-bottom: .5em;
+        color: #fff;
+        background: #d94338;
+        a.heading {
+            font-size: 90%;
+        }
+    }
+    .codelisting {
+        width: 670px;
+        .listing {
+            width: 670px;
+            color: #fff;
+            background: #2196f3;
+            border: 1px solid rgb(153, 153, 153);
+            border-bottom: none;
+            .header {
+                display: inline-block;
+                padding: .3em .3em;
+                line-height: 1em .5em;
+            }
+            .description {
+                &:last-child {
+                    display: block;
+                    padding: .3em .5em;
+                    font-size: 100%;
+                    color: rgb(0, 100, 0);
+                    background: #e0e0e0;
+                    &:before {
+                        content: "file: ";
+                    }
+                }
+            }
+        }
+        .code {
+            margin-top: 0;
+            .highlight {
+                padding: 0;
+                pre {
+                    padding: .5em 0;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    overflow-y: hidden !important;
+                    span {
+                        font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
+                        font-size: 85%;
+                    }
+                }
+            }
+        }
     }
     .code {
-      margin-top: 0;
-      .highlight {
-        padding: 0;
-        pre {
-          overflow-y: hidden !important;
-          span {
-            font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
-            font-size: 85%;
-          }
+        .highlight {
+            // padding: 0;
+            pre {
+                padding: .5em 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                overflow-y: hidden !important;
+                span {
+                    font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
+                    font-size: 85%;
+                }
+            }
         }
-      }
     }
-  }
-  .code {
-    .highlight {
-      // padding: 0;
-      pre {
-        overflow-y: hidden !important;
-        span {
-          font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
-          font-size: 85%;
-        }
-      }
-    }
-  }
 }
