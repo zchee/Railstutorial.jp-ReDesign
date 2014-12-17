@@ -25,10 +25,15 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     exec: {
-      guard: {
-        command: 'guard',
-        stdout: false,
-        stderr: false
+      extension: {
+        // command: 'open -g http://reload.extensions'
+        command: 'chrome-canary-cli open http://reload.extensions'
+      },
+      sleep: {
+        command: 'sleep 1'
+      },
+      reload: {
+        command: 'chrome-canary-cli close && chrome-canary-cli reload'
       }
     },
 
@@ -50,10 +55,17 @@ module.exports = function (grunt) {
       },
       compass: {
         files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['compass:chrome']
+        tasks: ['compass:chrome', 'exec:extension', 'exec:sleep', 'exec:reload']
       },
       gruntfile: {
         files: ['Gruntfile.js']
+      },
+      concat: {
+      files: ['<%= config.app %>/scripts/{,*/}*.js'],
+        tasks: ['concat:chrome', 'exec:extension', 'exec:sleep', 'exec:reload'],
+        options: {
+          livereload: true
+        }
       },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
@@ -62,45 +74,45 @@ module.exports = function (grunt) {
           livereload: true
         }
       },
-      livereload: {
-        options: {
-          livereload: '<%= connect.options.livereload %>'
-        },
-        files: [
-          '<%= config.app %>/*.html',
-          '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          '<%= config.app %>/manifest.json',
-          '<%= config.app %>/_locales/{,*/}*.json'
-        ]
-      }
+      // livereload: {
+      //   options: {
+      //     livereload: '<%= connect.options.livereload %>'
+      //   },
+      //   files: [
+      //     '<%= config.app %>/*.html',
+      //     '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+      //     '<%= config.app %>/manifest.json',
+      //     '<%= config.app %>/_locales/{,*/}*.json'
+      //   ]
+      // }
     },
 
     // Grunt server and debug server setting
-    connect: {
-      options: {
-        port: 9000,
-        livereload: 35729,
-        // change this to '0.0.0.0' to access the server from outside
-        hostname: 'localhost'
-      },
-      chrome: {
-        options: {
-          open: false,
-          base: [
-            '<%= config.app %>'
-          ]
-        }
-      },
-      test: {
-        options: {
-          open: false,
-          base: [
-            'test',
-            '<%= config.app %>'
-          ]
-        }
-      }
-    },
+    // connect: {
+    //   options: {
+    //     port: 9000,
+    //     livereload: 35729,
+    //     // change this to '0.0.0.0' to access the server from outside
+    //     hostname: 'localhost'
+    //   },
+    //   chrome: {
+    //     options: {
+    //       open: false,
+    //       base: [
+    //         '<%= config.app %>'
+    //       ]
+    //     }
+    //   },
+    //   test: {
+    //     options: {
+    //       open: false,
+    //       base: [
+    //         'test',
+    //         '<%= config.app %>'
+    //       ]
+    //     }
+    //   }
+    // },
 
     // Empties folders to start fresh
     clean: {
@@ -293,15 +305,16 @@ module.exports = function (grunt) {
     // uglify: {
     //   dist: {
     //     files: {
-    //       '<%= config.dist %>/scripts/scripts.js': [
-    //         '<%= config.dist %>/scripts/scripts.js'
+    //       '<%= config.dist %>/scripts/contentscript.min.js': [
+    //         '<%= config.dist %>/scripts/*.js'
     //       ]
     //     }
     //   }
     // },
-    // concat: {
-    //   dist: {}
-    // },
+    concat: {
+      chrome: {},
+      dist: {}
+    },
 
     // Copies remaining files to places other tasks can use
     copy: {
@@ -327,7 +340,7 @@ module.exports = function (grunt) {
     concurrent: {
       chrome: [
         'coffee:chrome',
-        'compass:chrome',
+        'compass:chrome'
       ],
       dist: [
         'coffee:dist',
@@ -340,8 +353,7 @@ module.exports = function (grunt) {
         'compass:test',
       ],
       watchguard: [
-        'watch',
-        'exec:guard'
+        'watch'
       ]
     },
 
@@ -368,7 +380,7 @@ module.exports = function (grunt) {
         options: {
           archive: function() {
             var manifest = grunt.file.readJSON('app/manifest.json');
-            return 'package/railstutorialjp redesign-' + manifest.version + '.zip';
+            return 'package/railstutorialjp-redesign-' + manifest.version + '.zip';
           }
         },
         files: [{
@@ -384,8 +396,8 @@ module.exports = function (grunt) {
   grunt.registerTask('debug', function () {
     grunt.task.run([
       'concurrent:chrome',
-      'connect:chrome',
-      'concurrent:watchguard'
+      // 'connect:chrome',
+      'watch'
     ]);
   });
 
