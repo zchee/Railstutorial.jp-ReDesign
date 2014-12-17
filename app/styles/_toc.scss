@@ -1,5 +1,161 @@
-#table_of_contents {
+$toc-width: 240px;
+$toc__hamburger-size: 50px;
+$toc__hamburger-color: #c52f24;
+
+
+#drawer-toggle-checkbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+  &:checked ~ {
+    #table_of_contents {
+      left: 0;
+
+      height: 100%;
+      &:before {
+        position: fixed;
+        top: 0;
+
+        display: block;
+        width: $toc-width;
+        height: $toc__hamburger-size;
+
+        font-size: 16px;
+        line-height: 52px;
+        color: #e0e0e0;
+
+        background: $toc__hamburger-color;
+        content: "Menu";
+
+        visibility: visible;
+        box-shadow: 0 2px 5px rgba(0,0,0,.26);
+      }
+    }
+    #container {
+      // margin-left: 0 !important;
+      overflow: auto;
+    }
+  }
+}
+#drawer-toggle-label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: block;
+  width: $toc__hamburger-size;
+  height: $toc__hamburger-size;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  cursor: pointer;
+
+  background: $toc__hamburger-color;
+
+  -webkit-overflow-scrolling: touch;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  &:before {
     position: absolute;
+    top: 18px;
+    left: 13px;
+
+    display: block;
+    width: 20px;
+    height: 2px;
+
+    background: #e0e0e0;
+    content: "";
+
+    box-shadow: 0 6px 0 #e0e0e0, 0 12px 0 #e0e0e0;
+  }
+}
+// Fixed TOC list
+#table_of_contents {
+  position: fixed;
+  top: 0;
+  left: -$toc-width;
+  z-index: 5;
+
+  height: $toc__hamburger-size;
+  overflow: scroll;
+
+  -webkit-transition: .25s ease-in-out;
+     -moz-transition: .25s ease-in-out;
+       -o-transition: .25s ease-in-out;
+          transition: .25s ease-in-out;
+  &:before {
+    position: fixed;
     top: 0;
-    left: 0;
+
+    display: block;
+    width: $toc-width;
+    height: $toc__hamburger-size;
+
+    font-size: 16px;
+    line-height: 52px;
+    color: #e0e0e0;
+
+    background: $toc__hamburger-color;
+    content: "Menu";
+
+    visibility: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+  }
+}
+// TOC list styling
+#table_of_contents {
+  width: $toc-width;
+  padding: 64px 0;
+
+  background: #eee;
+  ol {
+    padding: 3px 0 !important;
+    margin: 0 8px;
+
+    list-style-type: none;
+    li {
+      padding: 3px 0 !important;
+
+      text-align: left !important;
+      span.number:after {
+        content: " ";
+      }
+      a {
+        &.active {
+          display: inline !important;
+
+          background: #ffee58;
+          &:hover {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  & > ol {
+    margin: 0 12px;
+    & > li {
+      padding: 8px 16px;
+    }
+  }
+}
+.hidden {
+  display: none;
+
+  border: 0 !important;
+
+  visibility: hidden;
+}
+.show {
+  display: inline !important;
+
+  visibility: visible !important;
 }

@@ -1,0 +1,51 @@
+body.book #content #book {
+  & > h2.contents {
+    display: none;
+  }
+  & > h2.author {
+    width: inherit;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background: inherit;
+    background-image: none;
+  }
+  h1.chapter {
+    width: 101.7%;
+    padding: 24px;
+    margin-left: -38px;
+    background: #c52f24;
+  }
+  h2 {
+    width: 104.8%;
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    margin-left: -38px;
+    background: #c52f24;
+    a.heading {
+      font-size: 80%;
+    }
+  }
+  h3 {
+    padding: 12px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    background: #d94338;
+    a.heading {
+      font-size: 90%;
+    }
+  }
+  h4 {
+    padding: 4px 12px;
+    background: #f76156;
+  }
+  a {
+    &.heading {
+      color: #fff;
+    }
+    &:hover.heading {
+      color: #fff !important;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+body.book #content #book {
+  .code {
+    .highlight {
+      width: 830px;
+      padding-right: 0;
+      margin: 0 20px;
+      & * {
+        font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
+        font-size: 100%;
+        line-height: 1.4em;
+      }
+      pre {
+        padding: .5em 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow-y: hidden !important;
+      }
+    }
+  }
+  .codelisting {
+    .listing {
+      width: 830px;
+      margin: 0 20px;
+
+      color: #fff;
+
+      background: #2196f3;
+      border: 1px solid rgb(153, 153, 153);
+      border-bottom: none;
+      .header {
+        display: inline-block;
+        padding: .3em .3em;
+
+        line-height: 1em .5em;
+      }
+      .description {
+        &:last-child {
+          display: block;
+          padding: .3em .5em;
+
+          font-size: 100%;
+          color: rgb(0, 100, 0);
+
+          background: #e0e0e0;
+          &:before {
+            content: "file: ";
+          }
+        }
+      }
+    }
+    .code {
+      margin-top: 0;
+      .highlight {
+        padding: 0;
+        pre {
+          padding: .5em 0;
+          margin-top: 0;
+          margin-bottom: 0;
+          overflow-y: hidden !important;
+        }
+      }
+    }
+  }
+}
