@@ -7,6 +7,7 @@ body.book #content #book {
     padding: 0;
     margin-bottom: 0;
     margin-left: 0;
+
     background: inherit;
     background-image: none;
   }
@@ -14,6 +15,7 @@ body.book #content #book {
     width: 101.7%;
     padding: 24px;
     margin-left: -38px;
+
     background: #c52f24;
   }
   h2 {
@@ -22,6 +24,7 @@ body.book #content #book {
     margin-top: 16px;
     margin-bottom: 12px;
     margin-left: -38px;
+
     background: #c52f24;
     a.heading {
       font-size: 80%;
@@ -31,6 +34,7 @@ body.book #content #book {
     padding: 12px;
     margin-top: 16px;
     margin-bottom: 12px;
+
     background: #d94338;
     a.heading {
       font-size: 90%;
@@ -38,6 +42,7 @@ body.book #content #book {
   }
   h4 {
     padding: 4px 12px;
+
     background: #f76156;
   }
   a {

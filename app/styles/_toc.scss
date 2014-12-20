@@ -17,6 +17,7 @@ $toc__hamburger-color: #c52f24;
       &:before {
         position: fixed;
         top: 0;
+        left: 0;
 
         display: block;
         width: $toc-width;
@@ -28,8 +29,8 @@ $toc__hamburger-color: #c52f24;
 
         background: $toc__hamburger-color;
         content: "Menu";
+        // visibility: visible;
 
-        visibility: visible;
         box-shadow: 0 2px 5px rgba(0,0,0,.26);
       }
     }
@@ -83,17 +84,18 @@ $toc__hamburger-color: #c52f24;
   top: 0;
   left: -$toc-width;
   z-index: 5;
+  // height: $toc__hamburger-size;
 
-  height: $toc__hamburger-size;
   overflow: scroll;
 
-  -webkit-transition: .25s ease-in-out;
-     -moz-transition: .25s ease-in-out;
-       -o-transition: .25s ease-in-out;
-          transition: .25s ease-in-out;
+  -webkit-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+     -moz-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+       -o-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+          transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
   &:before {
     position: fixed;
     top: 0;
+    left: -$toc-width;
 
     display: block;
     width: $toc-width;
@@ -105,9 +107,13 @@ $toc__hamburger-color: #c52f24;
 
     background: $toc__hamburger-color;
     content: "Menu";
+    // visibility: hidden;
 
-    visibility: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    -webkit-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+       -moz-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+         -o-transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
+            transition: .4s .1s  cubic-bezier(.23, 1, .32, 1);
   }
 }
 // TOC list styling

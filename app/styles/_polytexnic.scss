@@ -1,15 +1,18 @@
 body #book {
   width: 41em;
+  margin-left: 5em;
+
   font-family: Georgia, serif;
   line-height: 1.5em;
-  margin-left: 5em;
   color: #070707;
 }
 
 #book h1 {
-  font-size: 230%;
-  border-top: 2px solid #333;
   padding-top: 1em;
+
+  font-size: 230%;
+
+  border-top: 2px solid #333;
 }
 
 #book h2 {
@@ -23,20 +26,23 @@ body #book {
 /* Title and subtitle */
 
 #book h1.title {
-  text-align: center;
   font-size: 250%;
+  text-align: center;
 }
 
 #book h1.subtitle {
-  border-top: none;
   padding-top: 0;
   margin: 0;
-  text-align: center;
+
   font-size: 140%;
+  text-align: center;
+
+  border-top: none;
 }
 
 #book h2.author {
   margin-top: 1em;
+
   text-align: center;
 }
 
@@ -51,8 +57,8 @@ body #book {
 
 #book code {
   font-size: 130%;
-  color: darkgreen;
   font-weight: bold;
+  color: darkgreen;
 }
 
 #book .number {
@@ -61,18 +67,21 @@ body #book {
 
 #book h1 span.number {
   display: block;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
+
   font-size: 80%;
 }
 
 #book .label {
+  margin-right: .5em;
+
   font-weight: bold;
-  margin-right: 0.5em;
 }
 
 #book .header {
+  margin-right: .5em;
+
   font-weight: bold;
-  margin-right: 0.5em;
 }
 
 #book .caption .header {
@@ -80,8 +89,8 @@ body #book {
 }
 
 #book .code {
-  margin-top: 0.5em;
   width: 100%;
+  margin-top: .5em;
 }
 
 
@@ -98,18 +107,20 @@ body #book {
 }
 
 #book .figure {
-  text-align: center;
   margin-top: 2em;
+
+  text-align: center;
 }
 
 #book .table {
-  text-align: center;
   margin-top: 2em;
+
+  text-align: center;
 }
 
 #book .table table.tabular {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 #book .center {
@@ -121,15 +132,17 @@ body #book {
 }
 
 #book .displaymath {
-  text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
+
+  text-align: center;
 }
 
 #book .caption {
-  text-align: center;
-  margin-bottom: 3em;
   margin-top: 1em;
+  margin-bottom: 3em;
+
+  text-align: center;
 }
 
 #book .equation_number {
@@ -141,7 +154,7 @@ body #book {
 }
 
 #book .tabular th {
-  padding: 0.5em;
+  padding: .5em;
 }
 
 #book .tabular th.align_left {
@@ -165,7 +178,7 @@ body #book {
 }
 
 #book .tabular td {
-  padding: 0.5em;
+  padding: .5em;
 }
 
 #book .tabular td.align_left {
@@ -197,14 +210,17 @@ body #book {
 }
 
 #book .footnotes {
-  border-top: 1px solid black;
   margin-top: 1em;
+
   font-size: 90%;
+
+  border-top: 1px solid black;
 }
 
 #book sup.footnote {
-  font-size: 75%;
   margin-right: 5px;
+
+  font-size: 75%;
 }
 
 #book sup.footnote a {
@@ -218,8 +234,9 @@ body #book {
 
 #book .footnotes .header {
   padding-top: 1em;
-  padding-bottom: 0.5em;
-  margin-left: 0.5em;
+  padding-bottom: .5em;
+  margin-left: .5em;
+
   font-size: 120%;
   font-weight: bold;
 }
@@ -232,7 +249,7 @@ body #book {
   color: #002f72;
 }
 
-#book a.section  {
+#book a.section {
   color: #070707;
   text-decoration: none;
 }
@@ -246,11 +263,12 @@ body #book {
 }
 
 #book .sidebar {
-  border: 1px solid #999;
-  padding: 0.5em;
-  padding-right: 1.5em;
-  background: #eee;
   width: 100%;
+  padding: .5em;
+  padding-right: 1.5em;
+
+  background: #eee;
+  border: 1px solid #999;
 }
 
 #book .sidebar .description {
@@ -258,10 +276,11 @@ body #book {
 }
 
 #book .highlight {
-  border: 1px solid #999;
   width: 100%;
-  background: #eee;
   padding-right: 1.5em;
+
+  background: #eee;
+  border: 1px solid #999;
 }
 
 #book .highlight .go {
@@ -270,12 +289,13 @@ body #book {
 
 
 #book pre {
-  line-height: 1.2em;
   font-family: monospace;
+  line-height: 1.2em;
 }
 
 #book .highlight pre {
   margin: 1em 0 1em 1em;
+
   font-size: 100%;
 }
 
@@ -285,15 +305,17 @@ body #book {
 }
 
 #book #table_of_contents ol {
+  padding-left: 0;
+
+  line-height: 1.2em;
   list-style-type: none;
   list-style-position: outside;
-  padding-left: 0;
-  line-height: 1.2em;
 }
 
 #book #table_of_contents li.chapter {
-  font-weight: bold;
   padding-top: 1.2em;
+
+  font-weight: bold;
 }
 
 #book #table_of_contents ol li {
@@ -305,8 +327,9 @@ body #book {
 }
 
 #book .navigation {
-  font-size: 90%;
   padding-bottom: 2em;
+
+  font-size: 90%;
 }
 
 #book .navigation .prev_page {
