@@ -3,7 +3,8 @@
 
 (function() {
   var link = document.getElementsByTagName('link');
-  console.log('link', link);
+  link[0].parentNode.removeChild(link[0]);
+  link[1].parentNode.removeChild(link[1]);
 
 
   function toggleClass(element, className) {
@@ -35,14 +36,14 @@
 
   var drawerInput = document.createElement('input');
   drawerInput.type = 'checkbox';
-  drawerInput.drawer = 'drawer-toggle-checkbox';
   drawerInput.id = 'drawer-toggle-checkbox';
-  drawerInput.checked = 'checked';
+  drawerInput.setAttribute('drawer', 'drawer-toggle-checkbox');
+  drawerInput.setAttribute('checked', 'checked');
   document.body.insertBefore(drawerInput, container);
 
   var drawerLabel = document.createElement('label');
-  drawerLabel.for = 'drawer-toggle-checkbox';
   drawerLabel.id = 'drawer-toggle-label';
+  drawerLabel.setAttribute('for', 'drawer-toggle-checkbox');
   document.body.insertBefore(drawerLabel, container);
 
   document.body.insertBefore(tableOfContentsClone, container);
@@ -55,7 +56,7 @@
     var i = 0;
 
     Array.prototype.forEach.call(heading, function(e) {
-      sections[e.id] = e.parentNode.offsetTop;
+      sections[e.id] = e.parentNode.offsetTop -1;
     });
 
 
