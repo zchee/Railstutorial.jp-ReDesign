@@ -1,4 +1,4 @@
-body.book #content #book {
+body.book #container #content #book {
   & > h2.contents {
     display: none;
   }
@@ -50,7 +50,7 @@ body.book #content #book {
       color: #fff;
     }
     &:hover.heading {
-      color: #fff !important;
+      color: #fff;
     }
   }
 }

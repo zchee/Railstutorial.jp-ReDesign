@@ -8,10 +8,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000313}}
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -20,60 +22,74 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000327}}
 ::-moz-selection {
   background: #b3d4fc;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000332}}
 ::selection {
   background: #b3d4fc;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 /*
  * A better looking default horizontal rule
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000341}}
 hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000356}}
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /*
  * Remove default fieldset styles.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000369}}
 fieldset {
   border: 0;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /*
  * Allow only vertical resizing of textareas.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000379}}
 textarea {
-  resize: vertical; }
+  resize: vertical;
+}
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\0000387}}
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
-  padding: 0.2em 0; }
+  padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -85,14 +101,17 @@ textarea {
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003123}}
 .hidden {
-  display: none !important;
-  visibility: hidden; }
+  display: none;
+  visibility: hidden;
+}
 
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003133}}
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -101,13 +120,15 @@ textarea {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; }
+  width: 1px;
+}
 
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003150}}
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -115,13 +136,16 @@ textarea {
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto; }
+  width: auto;
+}
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003164}}
 .invisible {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 /*
  * Clearfix: contain floats
@@ -134,15 +158,19 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003180}}
 .clearfix:before,
 .clearfix:after {
   content: " ";
   /* 1 */
   display: table;
-  /* 2 */ }
+  /* 2 */
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003186}}
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -150,90 +178,119 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */ }
+  /* Style adjustments for viewports that meet the condition */
+}
 @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */ }
+  /* Style adjustments for high resolution devices */
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003214}}
   *,
   *:before,
   *:after {
-    background: transparent !important;
-    color: #000 !important;
+    background: transparent;
+    color: #000;
     /* Black prints faster:
-       http://www.sanbeiji.com/archives/953 */
-    box-shadow: none !important;
-    text-shadow: none !important; }
+                  http://www.sanbeiji.com/archives/953 */
+    box-shadow: none;
+    text-shadow: none;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003224}}
   a,
   a:visited {
-    text-decoration: underline; }
+    text-decoration: underline;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003229}}
   a[href]:after {
-    content: " (" attr(href) ")"; }
+    content: " (" attr(href) ")";
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003233}}
   abbr[title]:after {
-    content: " (" attr(title) ")"; }
+    content: " (" attr(title) ")";
+  }
 
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003242}}
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
-    content: ""; }
+    content: "";
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003247}}
   pre,
   blockquote {
     border: 1px solid #999;
-    page-break-inside: avoid; }
+    page-break-inside: avoid;
+  }
 
   /*
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003258}}
   thead {
-    display: table-header-group; }
+    display: table-header-group;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003262}}
   tr,
   img {
-    page-break-inside: avoid; }
+    page-break-inside: avoid;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003267}}
   img {
-    max-width: 100% !important; }
+    max-width: 100%;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003271}}
   p,
   h2,
   h3 {
     orphans: 3;
-    widows: 3; }
+    widows: 3;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_hp5b\.scss}line{font-family:\00003278}}
   h2,
   h3 {
-    page-break-after: avoid; } }
+    page-break-after: avoid;
+  }
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\000039}}
 html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default margin.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000319}}
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -243,6 +300,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000333}}
 article,
 aside,
 details,
@@ -256,12 +314,14 @@ menu,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000354}}
 audio,
 canvas,
 progress,
@@ -269,142 +329,181 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000367}}
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000377}}
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
    ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000389}}
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\0000397}}
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003109}}
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003117}}
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari and Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003126}}
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003135}}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003144}}
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003153}}
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003161}}
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003169}}
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003173}}
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003184}}
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003192}}
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
    ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003203}}
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * Address differences between Firefox and other browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003211}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Contain overflow in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003221}}
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003229}}
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
    ========================================================================== */
@@ -418,6 +517,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003252}}
 button,
 input,
 optgroup,
@@ -428,13 +528,16 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003266}}
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -442,9 +545,11 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003277}}
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -453,6 +558,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003290}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -460,29 +566,36 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003302}}
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003311}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003322}}
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -491,337 +604,490 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003334}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003346}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003357}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003370}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * Define consistent border, margin, and padding.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003379}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003390}}
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003399}}
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003408}}
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
    ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003419}}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_normalize\.scss}line{font-family:\00003424}}
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\000031}}
 body #book {
   width: 41em;
   margin-left: 5em;
   font-family: Georgia, serif;
   line-height: 1.5em;
-  color: #070707; }
+  color: #070707;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000310}}
 #book h1 {
   padding-top: 1em;
   font-size: 230%;
-  border-top: 2px solid #333; }
+  border-top: 2px solid #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000318}}
 #book h2 {
-  font-size: 180%; }
+  font-size: 180%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000322}}
 #book img.tex {
-  vertical-align: -6px; }
+  vertical-align: -6px;
+}
 
 /* Title and subtitle */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000328}}
 #book h1.title {
   font-size: 250%;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000333}}
 #book h1.subtitle {
   padding-top: 0;
   margin: 0;
   font-size: 140%;
   text-align: center;
-  border-top: none; }
+  border-top: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000343}}
 #book h2.author {
   margin-top: 1em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000349}}
 #book a {
   color: #002f72;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000354}}
 #book tt {
-  font-size: 130%; }
+  font-size: 130%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000358}}
 #book code {
   font-size: 130%;
   font-weight: bold;
-  color: darkgreen; }
+  color: darkgreen;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000364}}
 #book .number {
-  margin-right: 1em; }
+  margin-right: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000368}}
 #book h1 span.number {
   display: block;
   margin-bottom: .5em;
-  font-size: 80%; }
+  font-size: 80%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000375}}
 #book .label {
   margin-right: .5em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000381}}
 #book .header {
   margin-right: .5em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000387}}
 #book .caption .header {
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000391}}
 #book .code {
   width: 100%;
-  margin-top: .5em; }
+  margin-top: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\0000397}}
 #book .codelisting {
-  width: 100%; }
+  width: 100%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003101}}
 #book .verb {
-  font-size: 120%; }
+  font-size: 120%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003105}}
 #book a.ref {
-  color: #002f72; }
+  color: #002f72;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003109}}
 #book .figure {
   margin-top: 2em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003115}}
 #book .table {
   margin-top: 2em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003121}}
 #book .table table.tabular {
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003126}}
 #book .center {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003130}}
 #book .figure img {
-  border: 1px solid #666; }
+  border: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003134}}
 #book .displaymath {
   margin-top: 1em;
   margin-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003141}}
 #book .caption {
   margin-top: 1em;
   margin-bottom: 3em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003148}}
 #book .equation_number {
-  float: right; }
+  float: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003152}}
 #book table.tabular {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003156}}
 #book .tabular th {
-  padding: .5em; }
+  padding: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003160}}
 #book .tabular th.align_left {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003164}}
 #book .tabular th.align_center {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003168}}
 #book .tabular th.align_right {
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003172}}
 #book .tabular th.left_bar {
-  border-left: 1px solid black; }
+  border-left: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003176}}
 #book .tabular th.right_bar {
-  border-right: 1px solid black; }
+  border-right: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003180}}
 #book .tabular td {
-  padding: .5em; }
+  padding: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003184}}
 #book .tabular td.align_left {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003188}}
 #book .tabular td.align_center {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003192}}
 #book .tabular td.align_right {
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003196}}
 #book .tabular td.left_bar {
-  border-left: 1px solid black; }
+  border-left: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003200}}
 #book .tabular td.right_bar {
-  border-right: 1px solid black; }
+  border-right: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003204}}
 #book .tabular tr.top_bar {
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003208}}
 #book .tabular tr.bottom_bar {
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003212}}
 #book .footnotes {
   margin-top: 1em;
   font-size: 90%;
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003220}}
 #book sup.footnote {
   margin-right: 5px;
-  font-size: 75%; }
+  font-size: 75%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003226}}
 #book sup.footnote a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003230}}
 #book sup.footnote a:visited {
-  color: #002f72; }
+  color: #002f72;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003235}}
 #book .footnotes .header {
   padding-top: 1em;
   padding-bottom: .5em;
   margin-left: .5em;
   font-size: 120%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003244}}
 #book a.arrow {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003248}}
 #book a:visited.arrow {
-  color: #002f72; }
+  color: #002f72;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003252}}
 #book a.section {
   color: #070707;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003257}}
 #book a.heading {
-  color: #000; }
+  color: #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003261}}
 #book a:hover.heading {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003265}}
 #book .sidebar {
   width: 100%;
   padding: .5em;
   padding-right: 1.5em;
   background: #eee;
-  border: 1px solid #999; }
+  border: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003274}}
 #book .sidebar .description {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003278}}
 #book .highlight {
   width: 100%;
   padding-right: 1.5em;
   background: #eee;
-  border: 1px solid #999; }
+  border: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003286}}
 #book .highlight .go {
-  color: darkgreen; }
+  color: darkgreen;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003291}}
 #book pre {
   font-family: monospace;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003296}}
 #book .highlight pre {
   margin: 1em 0 1em 1em;
-  font-size: 100%; }
+  font-size: 100%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003302}}
 #book #table_of_contents {
   margin-top: -1em;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003307}}
 #book #table_of_contents ol {
   padding-left: 0;
   line-height: 1.2em;
   list-style-type: none;
-  list-style-position: outside; }
+  list-style-position: outside;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003315}}
 #book #table_of_contents li.chapter {
   padding-top: 1.2em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003321}}
 #book #table_of_contents ol li {
-  padding-left: 3.1em; }
+  padding-left: 3.1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003325}}
 #book #table_of_contents a {
-  color: #002f72; }
+  color: #002f72;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003329}}
 #book .navigation {
   padding-bottom: 2em;
-  font-size: 90%; }
+  font-size: 90%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003335}}
 #book .navigation .prev_page {
-  float: left; }
+  float: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_polytexnic\.scss}line{font-family:\00003339}}
 #book .navigation .next_page {
-  float: right; }
+  float: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031}}
 html,
 body {
   padding: 0;
@@ -831,8 +1097,10 @@ body {
   font-style: inherit;
   font-weight: inherit;
   vertical-align: baseline;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\0000314}}
 div,
 span,
 object,
@@ -876,8 +1144,10 @@ tr {
   font-style: inherit;
   font-weight: inherit;
   vertical-align: baseline;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\0000361}}
 blockquote,
 q {
   padding: 0;
@@ -888,14 +1158,18 @@ q {
   font-weight: inherit;
   vertical-align: baseline;
   border: 0;
-  quotes: "" ""; }
+  quotes: "" "";
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\0000375}}
 blockquote:before,
 q:before,
 blockquote:after,
 q:after {
-  content: ""; }
+  content: "";
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\0000381}}
 th,
 td,
 caption {
@@ -909,8 +1183,10 @@ caption {
   text-align: left;
   vertical-align: baseline;
   vertical-align: middle;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\0000398}}
 table {
   padding: 0;
   margin: 0;
@@ -922,75 +1198,107 @@ table {
   vertical-align: middle;
   border: 0;
   border-collapse: separate;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003113}}
 a img {
-  border: none; }
+  border: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003116}}
 body.webpage #menu {
   width: 950px;
-  height: 34px; }
+  height: 34px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003120}}
 body.webpage #container .share {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003123}}
 body.webpage #container .share td {
   padding: 0;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003128}}
 body.webpage #container .share td.retweet {
   width: 50px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003132}}
 body.webpage #container #content {
   width: 920px;
   padding: 15px;
   margin: 0 auto;
   font-size: 110%;
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003140}}
 body.webpage #container #content h3.front {
-  border-bottom: 2px solid #333; }
+  border-bottom: 2px solid #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003143}}
 body.webpage #container #content h3.top {
-  font-size: 200%; }
+  font-size: 200%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003146}}
 body.webpage #container #content h2.title {
   margin-top: -.2em;
   margin-bottom: .5em;
   font-size: 150%;
   font-weight: bold;
-  border-bottom: none; }
+  border-bottom: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003155}}
 body.webpage #container #content .center {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003162}}
 body.webpage #container #content strong {
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003165}}
 body.webpage #container #content .riding_rails a {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003168}}
 body.webpage #container #content #sidebar {
   float: right;
   width: 200px;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003173}}
 body.webpage #container #content #sidebar h3 {
   padding: 5px;
   padding-bottom: 7px;
   margin: 4px 0;
   color: black;
   background: #d5e9f6;
-  border-bottom: none; }
+  border-bottom: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003183}}
 body.webpage #container #content #sidebar .connect ul {
   padding: 5px 0;
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003187}}
 body.webpage #container #content #sidebar .connect ul li {
   height: 24px;
   padding-top: 5px;
@@ -999,175 +1307,253 @@ body.webpage #container #content #sidebar .connect ul li {
   list-style-type: none;
   list-style-position: outside;
   list-style-image: none;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003199}}
 body.webpage #container #content #sidebar .connect ul li.feed a {
-  background: #fff url("/images/icons/feed-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/feed-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003202}}
 body.webpage #container #content #sidebar .connect ul li.twitter a {
-  background: #fff url("/images/icons/twitter-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/twitter-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003205}}
 body.webpage #container #content #sidebar .connect ul li.facebook a {
-  background: #fff url("/images/icons/facebook-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/facebook-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003208}}
 body.webpage #container #content #sidebar .connect ul li.email a {
-  background: #fff url("/images/icons/email-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/email-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003211}}
 body.webpage #container #content #sidebar .connect ul li.github a {
-  background: #fff url("/images/icons/github-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/github-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003214}}
 body.webpage #container #content #sidebar .connect ul li.railstutorialjp a {
-  background: #fff url("/images/icons/railstutorialjp-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/railstutorialjp-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003217}}
 body.webpage #container #content #sidebar .connect ul li.help a {
-  background: #fff url("/images/icons/help-icon24x24.png") no-repeat scroll; }
+  background: #fff url("/images/icons/help-icon24x24.png") no-repeat scroll;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003220}}
 body.webpage #container #content #sidebar .connect ul li a {
   display: block;
   height: 24px;
   padding-left: 35px;
   clear: both;
-  color: #006; }
+  color: #006;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003228}}
 body.webpage #container #content #sidebar .connect ul li a:visited {
-  color: #006; }
+  color: #006;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003231}}
 body.webpage #container #content #sidebar .connect ul li a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003234}}
 body.webpage #container #content #main {
   padding-right: 10px;
   margin-top: 20px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003239}}
 body.webpage #container #content #main.withsidebar {
   width: 670px;
-  margin-right: 200px; }
+  margin-right: 200px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003243}}
 body.webpage #container #content #main.withoutsidebar {
-  width: 860px; }
+  width: 860px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003246}}
 body.webpage #logo {
   position: absolute;
   top: 17px;
   left: 15px;
-  z-index: 2; }
+  z-index: 2;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003252}}
 body.webpage .notifications {
-  padding: 35px; }
+  padding: 35px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003255}}
 body.webpage .notifications #mc_embed_signup {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003262}}
 body.webpage #error {
   padding: 1em;
   margin-bottom: 1.5em;
   font-size: 120%;
   color: red;
-  border: 1px solid crimson; }
+  border: 1px solid crimson;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003271}}
 body.book #logo {
   position: absolute;
   top: 17px;
   left: 55px;
-  z-index: 2; }
+  z-index: 2;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003277}}
 body.book #menu {
   width: 950px;
-  height: 64px; }
+  height: 64px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003281}}
 body.book #content {
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003284}}
 body.book #content #book_top {
   width: 790px;
   height: 10px;
-  background: transparent url("/images/layout/book_top.png") no-repeat; }
+  background: transparent url("/images/layout/book_top.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003290}}
 body.book #content #book_bottom {
   width: 790px;
   height: 11px;
-  background: transparent url("/images/layout/book_bottom.png") no-repeat; }
+  background: transparent url("/images/layout/book_bottom.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003296}}
 body.book #content #book {
   width: 702px;
   padding: 40px;
   padding-right: 48px;
   margin: 0;
-  background: transparent url("/images/layout/book_bg.png") repeat-y; }
+  background: transparent url("/images/layout/book_bg.png") repeat-y;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003304}}
 body.book #sidebar {
   position: relative;
   float: right;
   width: 150px;
-  margin-right: 40px; }
+  margin-right: 40px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003311}}
 body.book #sidebar #navtool,
 body.book #sidebar .section {
-  margin: .5em 0; }
+  margin: .5em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003315}}
 body.book #sidebar #navtool {
   position: fixed;
-  top: 202px; }
+  top: 202px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003319}}
 body.book #sidebar #navtool a,
 body.book #sidebar #navtool img {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003326}}
 body.book #sidebar #navtool .layout a,
 body.book #sidebar #navtool .layout img {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003330}}
 body.book #sidebar #navtool table {
   width: 150px;
   margin-bottom: 5px;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003336}}
 body.book #sidebar #navtool .section {
   width: 136px;
   padding: 2px 7px 2px 7px;
   background: white;
-  border: 1px solid #2b3252; }
+  border: 1px solid #2b3252;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003343}}
 body.book #sidebar #navtool .section a {
-  display: inline; }
+  display: inline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003346}}
 body.book #sidebar #navtool .section .switcher {
   padding-bottom: 6px;
   margin-top: 4px;
   text-align: center;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003354}}
 body.book #sidebar #navtool .section .switcher .title {
   padding: 5px;
   font-weight: bold;
   color: #fff;
-  background: #6b0509; }
+  background: #6b0509;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003362}}
 body.book #sidebar #navtool .section .switcher .switcher_link a {
   font-weight: bold;
-  color: #009; }
+  color: #009;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003366}}
 body.book #sidebar #navtool .section .share {
   padding-top: 3px;
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003371}}
 body.book #sidebar #navtool .connect table {
-  margin-top: .7em; }
+  margin-top: .7em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003374}}
 body.book #sidebar .menu {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003377}}
 #container #header {
   position: relative;
   padding-top: 15px;
-  overflow: visible; }
+  overflow: visible;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003383}}
 #container #header #title h1#name {
   float: right;
   padding: 0;
@@ -1175,19 +1561,25 @@ body.book #sidebar .menu {
   font-weight: bold;
   color: white;
   text-indent: -999em;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003394}}
 #container #header #title h1#name a {
   display: block;
   width: 610px;
   height: 71px;
-  background: transparent url("/images/layout/title.png") no-repeat; }
+  background: transparent url("/images/layout/title.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003401}}
 #container #header #title a {
   display: block;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003407}}
 #container #header #title h2#authors {
   display: block;
   float: right;
@@ -1198,18 +1590,24 @@ body.book #sidebar .menu {
   font-style: italic;
   font-weight: normal;
   text-indent: -999em;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003421}}
 #container #header #title h2#authors a {
   display: block;
   width: 610px;
   height: 56px;
-  background: transparent url("/images/layout/author.png") no-repeat; }
+  background: transparent url("/images/layout/author.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003428}}
 #menu {
   font-size: 110%;
-  color: #fff; }
+  color: #fff;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003432}}
 #menu .links .box {
   position: relative;
   display: table;
@@ -1217,49 +1615,71 @@ body.book #sidebar .menu {
   margin: 0 auto;
   overflow: hidden;
   line-height: 2em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003443}}
 #menu .links .box span {
   display: table-cell;
   padding: 0 .25em;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003449}}
 #menu .links .box a {
   color: white;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003453}}
 #menu .links .box a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003456}}
 #menu .links .box img {
   position: relative;
   top: -2px;
   margin-left: .2em;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003464}}
 #menu .links .box .division {
-  margin: 5px; }
+  margin: 5px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003467}}
 #MathJax_Message {
-  display: none; }
+  display: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003470}}
 #content p {
-  color: #111; }
+  color: #111;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003473}}
 #content p .highlight {
-  background: #fff694; }
+  background: #fff694;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003476}}
 #content #sales p {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003479}}
 #content .box {
   padding-top: 10px;
   padding-bottom: 20px;
   margin-top: 25px;
   margin-bottom: 2.5em;
   background: #d5e9f6;
-  border: none; }
+  border: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003488}}
 #content .box a.signup_button {
   display: block;
   width: 250px;
@@ -1271,202 +1691,294 @@ body.book #sidebar .menu {
   font-weight: bold;
   color: #fff;
   text-align: center;
-  background: #006400; }
+  background: #006400;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003503}}
 #content .box ul {
   margin-bottom: 0;
-  color: #111; }
+  color: #111;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003508}}
 #content .box .involved {
   margin-top: 1em;
   margin-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003514}}
 #content .box .involved .subscribe {
-  margin-right: 30px; }
+  margin-right: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003517}}
 #content .box .involved .follow {
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003520}}
 #content .box .involved p.email {
   padding-top: 1em;
   margin-top: 1em;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003527}}
 #content .box .download {
   font-size: 115%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003531}}
 #content .box blockquote {
   padding: .8em;
-  background: #eee; }
+  background: #eee;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003536}}
 #content .box blockquote p {
-  color: #000; }
+  color: #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003539}}
 #content .box blockquote p.from {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003542}}
 #content .box .footnote {
   margin-top: 20px;
   margin-left: 30px;
-  font-size: 90%; }
+  font-size: 90%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003548}}
 #content .box .footnote a {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003551}}
 #content .buy {
   margin-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003556}}
 #content .buy p.price {
   margin-top: 10px;
   margin-bottom: .3em;
   font-size: 140%;
   font-style: italic;
   font-weight: bold;
-  color: #6b0509; }
+  color: #6b0509;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003565}}
 #content .buy p.price .strike {
   font-weight: normal;
-  text-decoration: line-through; }
+  text-decoration: line-through;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003569}}
 #content .buy .discount {
   font-style: italic;
-  color: #111; }
+  color: #111;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003573}}
 #content .buy .discount input {
-  width: 8em; }
+  width: 8em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003576}}
 #content .mission {
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003580}}
 #content a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003583}}
 #content .screenshots {
   display: inline-block;
   padding-top: 1em;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003592}}
 #content .screenshots h3 {
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003595}}
 #content .screenshots .text {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003598}}
 #content .screenshots li {
   margin-bottom: .3em;
   font-size: 100%;
-  list-style-type: square; }
+  list-style-type: square;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003604}}
 #content .screenshots img {
-  border: 1px solid #999; }
+  border: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003607}}
 #content .screenshots .screenshot-left {
   display: inline;
   float: left;
   width: 350px;
   margin-right: 10px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003614}}
 * html #content .screenshots .screenshot-left {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003617}}
 #content .screenshots .screenshot-right {
   display: inline;
   float: left;
   width: 270px;
   margin-right: 10px;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003624}}
 * html #content .screenshots .screenshot-right {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003627}}
 #content .screenshots {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003630}}
 #content .post {
   margin-bottom: 1.5em;
-  border-bottom: 1px solid #999; }
+  border-bottom: 1px solid #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003635}}
 #content .post .posted {
   display: block;
   margin-top: .2em;
   font-size: 60%;
-  color: #999; }
+  color: #999;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003642}}
 #content .fieldWithErrors {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003648}}
 #content .fieldWithErrors input {
-  background-color: #fbb; }
+  background-color: #fbb;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003651}}
 #content .fieldWithErrors label {
   font-weight: bold;
-  color: #d03; }
+  color: #d03;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003655}}
 #content h2.product {
   padding-top: .5em;
   margin-right: 30px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003660}}
 #content .products {
   display: inline-block;
   margin-right: 30px;
   margin-left: 30px;
   overflow: hidden;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003668}}
 #content .products tr {
-  border-top: 1px solid #666; }
+  border-top: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003671}}
 #content .products tr.last {
-  border-bottom: 1px solid #666; }
+  border-bottom: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003674}}
 #content .products td {
   margin-top: 1em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003678}}
 #content .products .thumbnail {
   display: inline;
   float: left;
   width: 150px;
   margin-right: 10px;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003686}}
 * html #content .products .thumbnail {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003689}}
 #content .products .thumbnail .caption {
   font-weight: bold;
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003693}}
 #content .products .description {
   display: inline;
   float: left;
   width: 350px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003699}}
 * html #content .products .description {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003702}}
 #content .products .description li {
   font-size: 16px;
-  list-style-type: square; }
+  list-style-type: square;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003706}}
 #content .products .second_ed li {
   font-size: 16px;
   font-weight: bold;
-  list-style-type: square; }
+  list-style-type: square;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003711}}
 #content .products .price {
   display: inline;
   float: left;
@@ -1477,14 +1989,20 @@ body.book #sidebar .menu {
   font-size: 110%;
   font-weight: bold;
   color: black;
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003724}}
 * html #content .products .price {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003727}}
 #content .products .price .bundle {
-  color: #6b0509; }
+  color: #6b0509;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003730}}
 #content .products .button {
   display: inline;
   float: left;
@@ -1492,370 +2010,556 @@ body.book #sidebar .menu {
   padding-right: 30px;
   margin-right: 10px;
   margin-right: 0;
-  margin-left: -15px; }
+  margin-left: -15px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003739}}
 #content .products .button .img {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003742}}
 * html #content .products .button {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003745}}
 #content .products {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003748}}
 #content ul.toc {
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003751}}
 #content ul.toc li {
   font-size: 16px;
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003755}}
 #content ul.toc .sample {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003758}}
 #content ul.toc .sample img {
   float: right;
-  margin-right: 50px; }
+  margin-right: 50px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003762}}
 #content .reviews {
   display: inline-block;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003766}}
 #content .reviews .left {
   display: inline;
   float: left;
   width: 390px;
   margin-right: 10px;
   margin-right: 30px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003774}}
 * html #content .reviews .left {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003777}}
 #content .reviews .right {
   display: inline;
   float: left;
   width: 390px;
   margin-right: 10px;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003784}}
 * html #content .reviews .right {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003787}}
 #content .reviews {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003790}}
 #content .reviews h4 {
   padding-top: .2em;
   padding-bottom: .2em;
   padding-left: .5em;
   margin-bottom: 0;
   color: black;
-  background: #d5e9f6; }
+  background: #d5e9f6;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003800}}
 #content .reviews blockquote {
   padding-top: 1em;
   padding-left: .5em;
   margin: 0;
   margin-bottom: 1.5em;
-  font-style: normal; }
+  font-style: normal;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003808}}
 #content .reviews blockquote p.reader {
   margin-top: -.5em;
   font-style: italic;
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003814}}
 #content .reviews ul {
-  color: #111; }
+  color: #111;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003817}}
 #content .reviews.landing {
   padding-bottom: 20px;
   margin-top: -10px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003824}}
 #content .reviews.landing h4 {
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003827}}
 #content .reviews.landing p {
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003830}}
 #content .reviews.landing ul {
   margin-bottom: 0;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003835}}
 #content .errorExplanation {
   padding: .5em;
   margin: 1em auto;
   background-color: #fbb;
-  border: 2px solid #d03; }
+  border: 2px solid #d03;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003842}}
 #content .errorExplanation h2 {
   margin-top: 0;
   font-size: 150%;
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003848}}
 #content .errorExplanation li {
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003851}}
 #content div.vanguard {
   margin-bottom: 1.5em;
-  margin-left: 1em; }
+  margin-left: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003855}}
 #content table.vanguard tr td {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003858}}
 #content table.vanguard tr td .benefit {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003861}}
 #content table.vanguard tr td .number {
-  font-size: 400%; }
+  font-size: 400%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003864}}
 #content form.vanguard {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003867}}
 #content .vanguard a {
   font-size: 120%;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003871}}
 table.layout {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003877}}
 table.layout td,
 table.layout tr,
 table.layout th,
 table.layout img {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003886}}
 .purchase .name p {
   margin-bottom: 1em;
   font-size: 150%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003892}}
 .purchase tt {
   font-size: 130%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003896}}
 .purchase .mailchimp {
   width: 75%;
   margin-top: 2em;
   margin-right: auto;
   margin-bottom: 2em;
   margin-left: auto;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003905}}
 .purchase #loading {
   height: 5em;
   margin-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003911}}
 .purchase #loading p {
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003915}}
 .purchase #download {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003918}}
 .purchase #download iframe {
-  height: 44em; }
+  height: 44em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003921}}
 .purchase #download.book iframe {
-  height: 5em; }
+  height: 5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003924}}
 tt.tag {
   font-size: 120%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003928}}
 .round {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003933}}
 #content #book_menu {
   width: 782px;
   margin-right: 30px;
   color: white;
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003940}}
 #content #book_menu a {
   margin: 0 .2em 0 .2em;
   font-size: 100%;
   font-weight: bold;
   color: #fff;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003948}}
 #content #book_menu .menu_share {
-  float: left; }
+  float: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003951}}
 #content #book_menu .menu_share table.share {
   padding-top: .5em;
   padding-left: .5em;
-  background: #fff; }
+  background: #fff;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003957}}
 #content #book_menu .menu_share table.share td {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003960}}
 #book_wrap #book {
   width: 100%;
   margin-top: 3em;
   margin-left: 0;
-  font-size: 135%; }
+  font-size: 135%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003967}}
 #book_wrap #book .code {
-  font-size: 89%; }
+  font-size: 89%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003970}}
 #book_wrap #book h1.title {
-  font-size: 270%; }
+  font-size: 270%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003973}}
 #book_wrap #book h1.subtitle {
-  font-size: 200%; }
+  font-size: 200%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003976}}
 #book_wrap #book h1.chapter {
   padding-top: 1em;
-  margin-bottom: 1.3em; }
+  margin-bottom: 1.3em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003980}}
 #book_wrap #book h2,
 #book_wrap #book h3,
 #book_wrap #book h4 {
-  margin-top: 1em; }
+  margin-top: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003985}}
 #book_wrap #book h1,
 #book_wrap #book h2,
 #book_wrap #book h3,
 #book_wrap #book h4 {
-  color: #000; }
+  color: #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003991}}
 #book_wrap #book h2 {
-  border-bottom: none; }
+  border-bottom: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003994}}
 #book_wrap #book a {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\00003997}}
 #book_wrap #book a.heading {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031000}}
 #book_wrap #book a.arrow {
   font-size: 115%;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031005}}
 #book_wrap #book div#table_of_contents a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031008}}
 #book_wrap #book a:hover {
   color: #6b0509;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031012}}
 #book_wrap #book a:hover.heading {
-  color: #000; }
+  color: #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031015}}
 #book_wrap #book ol li {
-  margin-top: 1em; }
+  margin-top: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031018}}
 #book_wrap #book #table_of_contents {
-  border-bottom: 2px solid #333; }
+  border-bottom: 2px solid #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031021}}
 #book_wrap #book #table_of_contents ol li {
   padding-left: 2.3em;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031025}}
 #book_wrap #book #table_of_contents ol li.chapter {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031028}}
 #book_wrap #book .preamble {
   display: block;
   margin-bottom: -.5em;
-  font-size: 125%; }
+  font-size: 125%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031034}}
 #book_wrap #book pre {
   margin-bottom: 1.5em;
-  font-size: 115%; }
+  font-size: 115%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031039}}
 #book_wrap #book .highlight {
-  width: 670px; }
+  width: 670px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031042}}
 #book_wrap #book .highlight pre {
   margin-bottom: 1em;
-  font-size: 120%; }
+  font-size: 120%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031047}}
 #book_wrap #book .code {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031050}}
 #book_wrap #book .table table {
-  width: auto; }
+  width: auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031053}}
 #book_wrap #book .table table code {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031056}}
 #book_wrap #book .table table th {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031059}}
 #book_wrap #book tt {
-  font-size: 130%; }
+  font-size: 130%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031062}}
 #book_wrap #book .sidebar {
   width: 670px;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031066}}
 #book_wrap #book .sidebar .title {
   display: block;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031070}}
 #book_wrap #book .sidebar p {
-  margin-top: 1em; }
+  margin-top: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031073}}
 #book_wrap #book .sidebar pre {
   padding: .5em 0;
-  margin: .5em 0; }
+  margin: .5em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031077}}
 #book_wrap #book .navigation span.number {
-  margin-right: .5em; }
+  margin-right: .5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031080}}
 #book_wrap #book .footnote {
-  margin-right: 1px; }
+  margin-right: 1px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031083}}
 #book_wrap #book .footnotes {
-  padding-top: 1em; }
+  padding-top: 1em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031086}}
 #book_wrap #book .footnotes a:hover.arrow {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031089}}
 #book_wrap #book code {
   font-family: Courier, monospace;
-  font-size: 100%; }
+  font-size: 100%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031093}}
 #book_wrap #book .highlight .go {
-  color: darkgreen; }
+  color: darkgreen;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031096}}
 #book_wrap #book img.tex {
-  vertical-align: -4px; }
+  vertical-align: -4px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031100}}
 #option p {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031103}}
 #option ul li {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031106}}
 #option tr {
   font-size: 18px;
-  border-top: solid 2px #000; }
+  border-top: solid 2px #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031111}}
 #option td {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031114}}
 #option th {
-  background-color: white; }
+  background-color: white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031117}}
 #option thead {
-  margin: 20px; }
+  margin: 20px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031120}}
 .fb-btn {
-  clear: left; }
+  clear: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031123}}
 #fb {
   padding: 8px;
   font-size: 15px;
@@ -1863,69 +2567,97 @@ tt.tag {
   background-color: #43609d;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031134}}
 #fb-img {
   width: 100%;
   height: 100%;
-  border-right: solid 2px white; }
+  border-right: solid 2px white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031140}}
 .state {
-  width: 100px; }
+  width: 100px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031143}}
 .finish > .state {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031146}}
 .finish > .state a {
   background-color: #eee;
   border: solid 1px #ddd;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4); }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031155}}
 .finish > .state a:hover {
-  background-color: #ddd; }
+  background-color: #ddd;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031158}}
 .finish > .state a:active,
 .full > .state a:active,
 .available > .state a:active {
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4) inset; }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4) inset;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031163}}
 .full > .state {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031166}}
 .full > .state a {
   background-color: #f8e6e0;
   border: solid 1px #ddd;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4); }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031175}}
 .full > .state a:hover {
-  background-color: #f5bca9; }
+  background-color: #f5bca9;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031178}}
 .available > .state {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031181}}
 .available > .state a {
   background-color: #e0f8e0;
   border: solid 1px #ddd;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4); }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031190}}
 .available > .state a:hover {
-  background-color: #a9f5a9; }
+  background-color: #a9f5a9;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031193}}
 .available > .state a,
 .full > .state a,
 .finish > .state a {
   display: block;
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031200}}
 .prepare-button p {
   display: block;
   margin: 0;
@@ -1936,8 +2668,10 @@ tt.tag {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4); }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031215}}
 .buy-button a {
   display: block;
   font-size: 20px;
@@ -1948,440 +2682,650 @@ tt.tag {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4); }
+  box-shadow: 1px 1px 3px rgba(169, 169, 169, 0.4);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031230}}
 .buy-button a:hover {
   color: #eee;
   background-color: #83373a;
-  box-shadow: 1px 2px 5px rgba(169, 169, 169, 0.7); }
+  box-shadow: 1px 2px 5px rgba(169, 169, 169, 0.7);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031237}}
 .buy-button a:visited {
-  color: #eee; }
+  color: #eee;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031240}}
 .buy-button a:active {
-  box-shadow: 1px 1px 7px rgba(169, 169, 169, 0.7) inset; }
+  box-shadow: 1px 1px 7px rgba(169, 169, 169, 0.7) inset;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031243}}
 .chapter-list {
   margin-bottom: 15px;
-  border: solid 1px #ddd; }
+  border: solid 1px #ddd;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031248}}
 .chapter-list td {
-  vertical-align: bottom; }
+  vertical-align: bottom;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031251}}
 .chapter-list table {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031254}}
 .chapter-list .buy-button,
 .chapter-list .prepare-button {
-  width: 125px; }
+  width: 125px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031258}}
 .chapter-list .buy-button {
-  margin: 5px; }
+  margin: 5px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031261}}
 body {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031264}}
 * html body legend {
   padding: 0;
-  margin: 0 -8px 16px 0; }
+  margin: 0 -8px 16px 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031268}}
 html > body p code {
-  *white-space: normal; }
+  *white-space: normal;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031271}}
 #container {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031274}}
 ol {
-  margin-left: 2em; }
+  margin-left: 2em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031277}}
 sup {
-  vertical-align: text-top; }
+  vertical-align: text-top;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031280}}
 sub {
-  vertical-align: text-bottom; }
+  vertical-align: text-bottom;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031283}}
 hr {
-  margin: -8px auto 11px; }
+  margin: -8px auto 11px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031286}}
 fieldset {
-  padding-top: 0; }
+  padding-top: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031289}}
 body {
   font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
   font-size: 75%;
   line-height: 1.5;
-  color: #333; }
+  color: #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031295}}
 h1 {
   margin-bottom: .5em;
   font-size: 3em;
   font-weight: normal;
   line-height: 1;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031303}}
 h1 img {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031306}}
 h2 {
   margin-bottom: .75em;
   font-size: 2em;
   font-weight: normal;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031313}}
 h3 {
   margin-bottom: 1em;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031321}}
 h4 {
   margin-bottom: 1.25em;
   font-size: 1.2em;
   font-weight: normal;
   line-height: 1.25;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031329}}
 h5 {
   margin-bottom: 1.5em;
   font-size: 1em;
   font-weight: normal;
   font-weight: bold;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031337}}
 h6 {
   font-size: 1em;
   font-weight: normal;
   font-weight: bold;
-  color: #222; }
+  color: #222;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031343}}
 h2 img,
 h3 img,
 h4 img,
 h5 img,
 h6 img {
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031350}}
 p {
-  margin: 0 0 1.5em; }
+  margin: 0 0 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031353}}
 p img.left {
   display: inline;
   float: left;
   padding: 0;
-  margin: 1.5em 1.5em 1.5em 0; }
+  margin: 1.5em 1.5em 1.5em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031359}}
 p img.right {
   display: inline;
   float: right;
   padding: 0;
-  margin: 1.5em 0 1.5em 1.5em; }
+  margin: 1.5em 0 1.5em 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031365}}
 a {
   color: #009;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031369}}
 a:visited {
-  color: #8e2f86; }
+  color: #8e2f86;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031372}}
 a:focus {
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031375}}
 a:hover {
-  color: black; }
+  color: black;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031378}}
 a:active {
-  color: #c09; }
+  color: #c09;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031381}}
 blockquote {
   margin: 1.5em;
   font-style: italic;
-  color: #666; }
+  color: #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031387}}
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031390}}
 em {
-  font-style: italic; }
+  font-style: italic;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031393}}
 dfn {
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031397}}
 sup,
 sub {
-  line-height: 0; }
+  line-height: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031401}}
 abbr,
 acronym {
-  border-bottom: 1px dotted #666; }
+  border-bottom: 1px dotted #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031405}}
 address {
   margin: 0 0 1.5em;
-  font-style: italic; }
+  font-style: italic;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031410}}
 del {
-  color: #666; }
+  color: #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031413}}
 li ul,
 li ol {
-  margin: 0 1.5em; }
+  margin: 0 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031417}}
 ul {
   margin: 0 1.5em 1.5em 1.5em;
-  list-style-type: disc; }
+  list-style-type: disc;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031422}}
 ol {
   margin: 0 1.5em 1.5em 1.5em;
-  list-style-type: decimal; }
+  list-style-type: decimal;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031427}}
 dl {
-  margin: 0 0 1.5em 0; }
+  margin: 0 0 1.5em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031430}}
 dl dt {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031433}}
 dd {
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031436}}
 table {
   width: 100%;
-  margin-bottom: 1.4em; }
+  margin-bottom: 1.4em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031440}}
 th {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031443}}
 thead th {
-  background: #c3d9ff; }
+  background: #c3d9ff;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031446}}
 th,
 td,
 caption {
-  padding: 4px 10px 4px 5px; }
+  padding: 4px 10px 4px 5px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031451}}
 tr.even td {
-  background: #e5ecf9; }
+  background: #e5ecf9;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031454}}
 tfoot {
-  font-style: italic; }
+  font-style: italic;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031457}}
 caption {
-  background: #eee; }
+  background: #eee;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031460}}
 .quiet {
-  color: #666; }
+  color: #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031463}}
 .loud {
-  color: #111; }
+  color: #111;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031466}}
 .clear {
-  clear: both; }
+  clear: both;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031469}}
 .nowrap {
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031472}}
 .clearfix {
   display: inline-block;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031476}}
 .clearfix {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031479}}
 .small {
   margin-bottom: 1.875em;
   font-size: .8em;
-  line-height: 1.875em; }
+  line-height: 1.875em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031485}}
 .large {
   margin-bottom: 1.25em;
   font-size: 1.2em;
-  line-height: 2.5em; }
+  line-height: 2.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031491}}
 .first {
   padding-left: 0;
-  margin-left: 0; }
+  margin-left: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031495}}
 .last {
   padding-right: 0;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031499}}
 .top {
   padding-top: 0;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031503}}
 .bottom {
   padding-bottom: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031507}}
 .showgrid {
-  background: url(/images/grid.png); }
+  background: url(/images/grid.png);
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031510}}
 label {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031513}}
 fieldset {
   padding: 1.4em;
   margin: 0 0 1.5em 0;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031519}}
 legend {
   font-size: 1.2em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031523}}
 input.text {
   width: 300px;
   padding: 5px;
   margin: .5em 0;
-  border: 1px solid #bbb; }
+  border: 1px solid #bbb;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031530}}
 input.text:focus {
-  border: 1px solid #666; }
+  border: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031533}}
 input.title {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031536}}
 input.title {
   width: 300px;
   padding: 5px;
   margin: .5em 0;
-  border: 1px solid #bbb; }
+  border: 1px solid #bbb;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031543}}
 input.title:focus {
-  border: 1px solid #666; }
+  border: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031546}}
 textarea {
   margin: .5em 0;
-  border: 1px solid #bbb; }
+  border: 1px solid #bbb;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031551}}
 textarea:focus {
-  border: 1px solid #666; }
+  border: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031554}}
 select {
   margin: .5em 0;
-  border: 1px solid #bbb; }
+  border: 1px solid #bbb;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031559}}
 select:focus {
-  border: 1px solid #666; }
+  border: 1px solid #666;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031562}}
 textarea {
   width: 390px;
   height: 250px;
-  padding: 5px; }
+  padding: 5px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031567}}
 .error {
   padding: .8em;
   margin-bottom: 1em;
   color: #8a1f11;
   background: #fbe3e4;
   border: 2px solid #ddd;
-  border-color: #fbc2c4; }
+  border-color: #fbc2c4;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031577}}
 .error a {
-  color: #8a1f11; }
+  color: #8a1f11;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031580}}
 .notice {
   padding: .8em;
   margin-bottom: 1em;
   color: #514721;
   background: #fff6bf;
   border: 2px solid #ddd;
-  border-color: #ffd324; }
+  border-color: #ffd324;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031590}}
 .notice a {
-  color: #514721; }
+  color: #514721;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031593}}
 .success {
   padding: .8em;
   margin-bottom: 1em;
   color: #264409;
   background: #e6efc2;
   border: 2px solid #ddd;
-  border-color: #c6d880; }
+  border-color: #c6d880;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031603}}
 .success a {
-  color: #264409; }
+  color: #264409;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031606}}
 .hide {
-  display: none; }
+  display: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031609}}
 .highlight {
-  background: yellow; }
+  background: yellow;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031612}}
 .added {
   color: white;
-  background: #060; }
+  background: #060;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031617}}
 .removed {
   color: white;
-  background: #900; }
+  background: #900;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031622}}
 body {
   margin-right: -10px;
   margin-left: -10px;
   overflow-x: hidden;
-  background: #5c5c5c url("/images/layout/background.png") top left repeat-x; }
+  background: #5c5c5c url("/images/layout/background.png") top left repeat-x;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031629}}
 body #container {
   width: 1030px;
   padding: 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031634}}
 body a#fdbk_tab {
   position: fixed;
-  margin-top: 350px; }
+  margin-top: 350px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031639}}
 body.webpage #header,
 body.webpage #menu,
 body.webpage #content {
   margin-right: 40px;
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031645}}
 body.webpage #container {
-  background: transparent url("/images/layout/website_container.png") repeat-y; }
+  background: transparent url("/images/layout/website_container.png") repeat-y;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031648}}
 body.webpage #header {
   width: 950px;
   height: 147px;
-  background: transparent url("/images/layout/website_header.png") no-repeat; }
+  background: transparent url("/images/layout/website_header.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031654}}
 body.webpage #menu {
-  background: transparent url("/images/layout/website_menu.png") no-repeat; }
+  background: transparent url("/images/layout/website_menu.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031657}}
 body.webpage #content {
   background: transparent url("/images/layout/website_content.png") repeat-y;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #333;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031661}}
 body.book #header {
   width: 950px;
   height: 147px;
   padding: 0 40px;
-  background: transparent url("/images/layout/book_header.png") no-repeat; }
+  background: transparent url("/images/layout/book_header.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031668}}
 body.book #menu {
   width: 950px;
   padding: 0 40px;
-  background: transparent url("/images/layout/book_menu.png") no-repeat; }
+  background: transparent url("/images/layout/book_menu.png") no-repeat;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031675}}
 #footer {
   width: 790px;
   padding-top: 11px;
   padding-bottom: 22px;
   padding-left: 375px;
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031683}}
 #footer p {
   margin-bottom: 5px;
   font-size: 100%;
-  color: white; }
+  color: white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031689}}
 #footer a {
   margin: 0 .2em 0 .2em;
   font-size: 100%;
   font-weight: bold;
   color: white;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 /* miscellaneous */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031699}}
 .copyright {
   width: 100%;
   margin-top: -30px;
@@ -2390,14 +3334,20 @@ body.book #menu {
   clear: both;
   font-size: 100%;
   color: white;
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031710}}
 .copyright a {
-  color: white; }
+  color: white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031713}}
 .copyright a:visited {
-  color: white; }
+  color: white;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031716}}
 .debug_dump {
   width: 100%;
   width: 400px;
@@ -2409,281 +3359,100 @@ body.book #menu {
   border: 2px solid black;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031732}}
 .snsb {
   margin-left: 0;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031736}}
 .snsb li {
   float: left;
   margin-right: 4px;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031742}}
 .snsb iframe {
-  margin: 0 !important; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031746}}
 .fb-like iframe {
-  max-width: none !important; }
+  max-width: none !important;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/assets\/_screen\.scss}line{font-family:\000031749}}
 .fb-like iframe {
-  z-index: 9999; }
+  z-index: 9999;
+}
 
-#drawer-toggle-checkbox {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0; }
-  #drawer-toggle-checkbox:checked ~ #table_of_contents {
-    left: 0;
-    height: 100%; }
-    #drawer-toggle-checkbox:checked ~ #table_of_contents:before {
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: block;
-      width: 240px;
-      height: 50px;
-      font-size: 16px;
-      line-height: 52px;
-      color: #e0e0e0;
-      background: #c52f24;
-      content: "Menu";
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
-  #drawer-toggle-checkbox:checked ~ #container {
-    overflow: auto; }
-
-#drawer-toggle-label {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  display: block;
-  width: 50px;
-  height: 50px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  cursor: pointer;
-  background: #c52f24;
-  -webkit-overflow-scrolling: touch;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-  #drawer-toggle-label:before {
-    position: absolute;
-    top: 18px;
-    left: 13px;
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: #e0e0e0;
-    content: "";
-    box-shadow: 0 6px 0 #e0e0e0, 0 12px 0 #e0e0e0; }
-
-#table_of_contents {
-  position: fixed;
-  top: 0;
-  left: -240px;
-  z-index: 5;
-  overflow: scroll;
-  -webkit-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-  -moz-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-  -o-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-  transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1); }
-  #table_of_contents:before {
-    position: fixed;
-    top: 0;
-    left: -240px;
-    display: block;
-    width: 240px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 52px;
-    color: #e0e0e0;
-    background: #c52f24;
-    content: "Menu";
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    -webkit-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-    -moz-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-    -o-transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
-    transition: 0.4s 0.1s cubic-bezier(0.23, 1, 0.32, 1); }
-
-#table_of_contents {
-  width: 240px;
-  padding: 64px 0;
-  background: #eee; }
-  #table_of_contents ol {
-    padding: 3px 0 !important;
-    margin: 0 8px;
-    list-style-type: none; }
-    #table_of_contents ol li {
-      padding: 3px 0 !important;
-      text-align: left !important; }
-      #table_of_contents ol li span.number:after {
-        content: " "; }
-      #table_of_contents ol li a.active {
-        display: inline !important;
-        background: #ffee58; }
-        #table_of_contents ol li a.active:hover {
-          color: #333; }
-  #table_of_contents > ol {
-    margin: 0 12px; }
-    #table_of_contents > ol > li {
-      padding: 8px 16px; }
-
-.hidden {
-  display: none;
-  border: 0 !important;
-  visibility: hidden; }
-
-.show {
-  display: inline !important;
-  visibility: visible !important; }
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_font\.scss}line{font-family:\000031}}
 div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
-  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Verdana, Meiryo, sans-serif !important; }
+  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Verdana, Meiryo, sans-serif;
+}
 
-body.book #content #book > h2.contents {
-  display: none; }
-body.book #content #book > h2.author {
-  width: inherit;
-  padding: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  background: inherit;
-  background-image: none; }
-body.book #content #book h1.chapter {
-  width: 101.7%;
-  padding: 24px;
-  margin-left: -38px;
-  background: #c52f24; }
-body.book #content #book h2 {
-  width: 104.8%;
-  padding: 12px;
-  margin-top: 16px;
-  margin-bottom: 12px;
-  margin-left: -38px;
-  background: #c52f24; }
-  body.book #content #book h2 a.heading {
-    font-size: 80%; }
-body.book #content #book h3 {
-  padding: 12px;
-  margin-top: 16px;
-  margin-bottom: 12px;
-  background: #d94338; }
-  body.book #content #book h3 a.heading {
-    font-size: 90%; }
-body.book #content #book h4 {
-  padding: 4px 12px;
-  background: #f76156; }
-body.book #content #book a.heading {
-  color: #fff; }
-body.book #content #book a:hover.heading {
-  color: #fff !important; }
-
-body #container {
-  width: 100% !important;
-  height: 100%;
-  overflow-x: auto;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; }
-  body #container #content {
-    width: 100% !important; }
-    body #container #content #main {
-      width: 950px;
-      margin: 0 auto; }
-      body #container #content #main #book_wrap {
-        width: 950px !important; }
-        body #container #content #main #book_wrap #book_top {
-          width: 988px !important; }
-        body #container #content #main #book_wrap #book {
-          width: 870px !important;
-          max-width: 870px !important; }
-          body #container #content #main #book_wrap #book p {
-            line-height: 1.2em; }
-  body #container #header {
-    z-index: 1;
-    width: 1030px;
-    padding: 0 !important;
-    margin: 0 auto;
-    background-size: 100% !important;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%; }
-    body #container #header #title {
-      position: relative;
-      width: 1030px;
-      margin: 0 auto; }
-      body #container #header #title #name,
-      body #container #header #title #authors {
-        margin-right: 80px !important; }
-  body #container #menu {
-    width: 1030px;
-    padding: 0 !important;
-    margin: 0 auto;
-    background-size: 100% !important;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%; }
-  body #container #content,
-  body #container #footer {
-    width: 1030px;
-    margin: 0 auto; }
-  body #container #sidebar {
-    position: absolute;
-    right: 20px; }
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\000033}}
 body.book #content #book .code .highlight {
   width: 830px;
   padding-right: 0;
-  margin: 0 20px; }
-  body.book #content #book .code .highlight * {
-    font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo !important;
-    font-size: 100%;
-    line-height: 1.4em; }
-  body.book #content #book .code .highlight pre {
-    padding: .5em 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    overflow-y: hidden !important; }
+  margin: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\000037}}
+body.book #content #book .code .highlight * {
+  font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000312}}
+body.book #content #book .code .highlight pre {
+  padding: .5em 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-y: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000321}}
 body.book #content #book .codelisting .listing {
   width: 830px;
   margin: 0 20px;
   color: #fff;
   background: #2196f3;
   border: 1px solid #999999;
-  border-bottom: none; }
-  body.book #content #book .codelisting .listing .header {
-    display: inline-block;
-    padding: .3em .3em;
-    line-height: 1em .5em; }
-  body.book #content #book .codelisting .listing .description:last-child {
-    display: block;
-    padding: .3em .5em;
-    font-size: 100%;
-    color: darkgreen;
-    background: #e0e0e0; }
-    body.book #content #book .codelisting .listing .description:last-child:before {
-      content: "file: "; }
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000330}}
+body.book #content #book .codelisting .listing .header {
+  display: inline-block;
+  padding: .3em .3em;
+  line-height: 1em .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000337}}
+body.book #content #book .codelisting .listing .description:last-child {
+  display: block;
+  padding: .3em .5em;
+  font-size: 100%;
+  color: darkgreen;
+  background: #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000345}}
+body.book #content #book .codelisting .listing .description:last-child:before {
+  content: "file: ";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000351}}
 body.book #content #book .codelisting .code {
-  margin-top: 0; }
-  body.book #content #book .codelisting .code .highlight {
-    padding: 0; }
-    body.book #content #book .codelisting .code .highlight pre {
-      padding: .5em 0;
-      margin-top: 0;
-      margin-bottom: 0;
-      overflow-y: hidden !important; }
-
-* {
-  -webkit-text-size-adjust: none; }
-
-html,
-body {
-  overflow: scroll !important;
-  background: #5c5c5c;
-  background-attachment: scroll;
-  background-image: none !important; }
-
-/*# sourceMappingURL=main.css.map */
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000353}}
+body.book #content #book .codelisting .code .highlight {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Chee\/ChromeExtensions\/Railstutorial\.jp-ReDesign\/app\/styles\/global\/_codehight\.scss}line{font-family:\0000355}}
+body.book #content #book .codelisting .code .highlight pre {
+  padding: .5em 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-y: hidden;
+}

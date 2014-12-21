@@ -121,7 +121,7 @@ textarea {
  */
 
 .hidden {
-    display: none !important;
+    display: none;
     visibility: hidden;
 }
 
@@ -214,11 +214,11 @@ textarea {
     *,
     *:before,
     *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        background: transparent;
+        color: #000; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
+        box-shadow: none;
+        text-shadow: none;
     }
 
     a,
@@ -265,7 +265,7 @@ textarea {
     }
 
     img {
-        max-width: 100% !important;
+        max-width: 100%;
     }
 
     p,

@@ -24,19 +24,6 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
 
-    exec: {
-      extension: {
-        // command: 'open -g http://reload.extensions'
-        command: 'chrome-canary-cli open http://reload.extensions'
-      },
-      sleep: {
-        command: 'sleep 1'
-      },
-      reload: {
-        command: 'chrome-canary-cli close && chrome-canary-cli reload'
-      }
-    },
-
     // Project settings
     config: config,
 
@@ -55,64 +42,83 @@ module.exports = function (grunt) {
       },
       compass: {
         files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['compass:chrome', 'exec:extension', 'exec:sleep', 'exec:reload']
+        tasks: ['compass:chrome'],
+        options: {
+          livereload: true
+        }
       },
       gruntfile: {
         files: ['Gruntfile.js']
       },
       concat: {
       files: ['<%= config.app %>/scripts/{,*/}*.js'],
-        tasks: ['concat:chrome', 'exec:extension', 'exec:sleep', 'exec:reload'],
+        tasks: ['concat:chrome', 'exec:extension', 'exec:page'],
         options: {
+          spawn: false,
           livereload: true
         }
       },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
-        tasks: [],
+        tasks: ['exec:extension', 'exec:page'],
         options: {
+          spawn: false,
           livereload: true
         }
       },
-      // livereload: {
-      //   options: {
-      //     livereload: '<%= connect.options.livereload %>'
-      //   },
-      //   files: [
-      //     '<%= config.app %>/*.html',
-      //     '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-      //     '<%= config.app %>/manifest.json',
-      //     '<%= config.app %>/_locales/{,*/}*.json'
-      //   ]
-      // }
+      livereload: {
+        options: {
+          livereload: '<%= connect.options.livereload %>'
+        },
+        files: [
+          '<%= config.app %>/*.html',
+          '<%= config.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+          '<%= config.app %>/manifest.json',
+          '<%= config.app %>/_locales/{,*/}*.json'
+        ]
+      }
+    },
+
+    // Grunt exec for extension reload.
+    exec: {
+      extension: {
+        // command: 'open -g http://reload.extensions'
+        command: 'chrome-canary-cli open http://reload.extensions'
+      },
+      sleep: {
+        command: 'sleep 1'
+      },
+      page: {
+        command: 'chrome-canary-cli close'
+      }
     },
 
     // Grunt server and debug server setting
-    // connect: {
-    //   options: {
-    //     port: 9000,
-    //     livereload: 35729,
-    //     // change this to '0.0.0.0' to access the server from outside
-    //     hostname: 'localhost'
-    //   },
-    //   chrome: {
-    //     options: {
-    //       open: false,
-    //       base: [
-    //         '<%= config.app %>'
-    //       ]
-    //     }
-    //   },
-    //   test: {
-    //     options: {
-    //       open: false,
-    //       base: [
-    //         'test',
-    //         '<%= config.app %>'
-    //       ]
-    //     }
-    //   }
-    // },
+    connect: {
+      options: {
+        port: 9000,
+        livereload: 35729,
+        // change this to '0.0.0.0' to access the server from outside
+        hostname: 'localhost'
+      },
+      chrome: {
+        options: {
+          open: false,
+          base: [
+            '<%= config.app %>'
+          ]
+        }
+      },
+      test: {
+        options: {
+          open: false,
+          base: [
+            'test',
+            '<%= config.app %>'
+          ]
+        }
+      }
+    },
 
     // Empties folders to start fresh
     clean: {
@@ -396,7 +402,7 @@ module.exports = function (grunt) {
   grunt.registerTask('debug', function () {
     grunt.task.run([
       'concurrent:chrome',
-      // 'connect:chrome',
+      'connect:chrome',
       'watch'
     ]);
   });

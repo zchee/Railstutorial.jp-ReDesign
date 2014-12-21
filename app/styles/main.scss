@@ -1,22 +1,24 @@
-@import "hp5b";
-@import "normalize";
-@import "polytexnic";
-@import "screen";
-@import "global";
+@import "assets/hp5b";
+@import "assets/normalize";
+@import "assets/polytexnic";
+@import "assets/screen";
+
+@import "mixin/dimensions";
+
+@import "global/font";
+@import "global/codehight";
+
+// @import "container";
 @import "sidebar";
-@import "toc";
-@import "font";
-@import "header";
-@import "content";
-@import "codehight";
-* {
-  -webkit-text-size-adjust: none;
-}
+// @import "toc";
+// @import "heading";
+
+
 html,
 body {
-  overflow: scroll !important;
+  // overflow: scroll;
 
-  background: rgba(92, 92, 92, 1);
-  background-attachment: scroll;
-  background-image: none !important;
+  // background: rgba(92, 92, 92, 1);
+  // background-attachment: scroll;
+  // background-image: none;
 }

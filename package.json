@@ -1,8 +1,11 @@
 {
-  "name": "railstutorialjp-redesign",
+  "name": "Railstutorial.jp-ReResign",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "coffee-script": "^1.8.0",
+    "del": "^1.1.0",
     "grunt": "~0.4.1",
     "grunt-bower-install": "~1.0.0",
     "grunt-chrome-manifest": "~0.2.0",
@@ -24,18 +27,16 @@
     "grunt-mocha": "~0.4.10",
     "grunt-svgmin": "~0.4.0",
     "grunt-usemin": "~2.1.0",
+    "gulp": "^3.8.10",
+    "gulp-compass": "^2.0.3",
+    "gulp-load-plugins": "^0.7.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-watch": "^3.0.0",
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.4.0",
-    "time-grunt": "~0.3.1",
-    "browser-sync": "^1.7.2",
-    "del": "^1.1.0",
-    "gulp": "^3.8.10",
-    "gulp-autoprefixer": "^2.0.0",
-    "gulp-changed": "^1.0.0",
-    "gulp-load-plugins": "^0.7.1",
-    "gulp-ruby-sass": "^0.7.1",
-    "gulp-size": "^1.1.0",
-    "main-bower-files": "^2.4.1"
+    "main-bower-files": "^2.4.1",
+    "require-dir": "^0.1.0",
+    "time-grunt": "~0.3.1"
   },
   "engines": {
     "node": ">=0.8.0"
