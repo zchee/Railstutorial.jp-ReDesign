@@ -66,7 +66,7 @@
     var tocOl = document.querySelectorAll('#table_of_contents > ol');
     var tocOlChildNodesLi = tocOl[0].childNodes;
     var locationUrl = location.href.match(/(.+)\?(.+)/);
-    console.log('1: locationUrl[1]', locationUrl[1]);
+    // console.log('1: locationUrl[1]', locationUrl[1]);
 
     for (var i = 0; i < tocOlChildNodesLi.length; i++) {
       // console.log('2: tocOlChildNodesLi', tocOlChildNodesLi);

@@ -29,6 +29,9 @@ module.exports = function (grunt) {
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
+      options: {
+        spawn: false,
+      },
       bower: {
         files: ['bower.json'],
         tasks: ['bowerInstall']
@@ -52,17 +55,15 @@ module.exports = function (grunt) {
       },
       concat: {
       files: ['<%= config.app %>/scripts/{,*/}*.js'],
-        tasks: ['concat:chrome', 'exec:extension', 'exec:page'],
+        tasks: ['concat:chrome', 'crx_auto_reload'],
         options: {
-          spawn: false,
           livereload: true
         }
       },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
-        tasks: ['exec:extension', 'exec:page'],
+        tasks: ['crx_auto_reload'],
         options: {
-          spawn: false,
           livereload: true
         }
       },
@@ -91,6 +92,13 @@ module.exports = function (grunt) {
       page: {
         command: 'chrome-canary-cli close'
       }
+    },
+
+    crx_auto_reload: {
+      options: {
+        extensionDir: 'app/'
+      },
+      default: {}
     },
 
     // Grunt server and debug server setting
