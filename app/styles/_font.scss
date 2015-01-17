@@ -1,0 +1,103 @@
+/*
+* Noto Sans Japanese (japanese) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Thin.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Thin.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Thin.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Light.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Light.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 300;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-DemiLight.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-DemiLight.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Regular.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Regular.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Medium.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Medium.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Bold.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Bold.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Black.woff2) format('woff2'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Black.woff) format('woff'),
+  url(chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Regular';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSansCJKjp-Regular.otf');
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Light';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/NotoSansCJKjp-Light.otf');
+}
+
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, tt, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  font-family: "Noto Sans Japanese", sans-serif; //"Noto Sans Japanese", "游ゴシック", YuGothic, "游明朝", YuMincho, YuMincho, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN"
+}
+
+#content #main #book_wrap #book_top #book {
+  p {
+    font-size: 14px;
+    line-height: 2.3;
+    letter-spacing: 1.3px;
+    color: #333;
+    word-wrap: break-word;
+    em {
+      margin-right: 2px;
+    }
+  }
+  tt {
+    font-size: 100%;
+    font-family: 'Source Code Pro', 'Inconsolata', 'Menlo', sans-serif;
+  }
+  code {
+    margin-right: 2px;
+
+    font-family: 'Source Code Pro', 'Inconsolata', 'Menlo', sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+  }
+}

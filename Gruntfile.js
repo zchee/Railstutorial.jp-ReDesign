@@ -101,6 +101,13 @@ module.exports = function (grunt) {
       default: {}
     },
 
+    ttf2woff: {
+      default: {
+        src: ['<%= config.app %>/fonts/**/*.ttf'],
+        dest: '<%= config.app %>/fonts/'
+      }
+    },
+
     // Grunt server and debug server setting
     connect: {
       options: {
@@ -366,7 +373,7 @@ module.exports = function (grunt) {
         'coffee:test',
         'compass:test',
       ],
-      watchguard: [
+      watch: [
         'watch'
       ]
     },
@@ -388,7 +395,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // Compres dist files to package
+    // Compress dist files to package
     compress: {
       dist: {
         options: {

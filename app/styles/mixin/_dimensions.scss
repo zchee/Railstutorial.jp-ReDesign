@@ -1,5 +1,10 @@
-$base_width : 100%;
-$toc_width : 300px;
+$base-width : 100%;
+$content-width : 840px;
+$content__main-width : $content-width - 80px;
+$content__book_top-width : $content-width - 42px;
+$content__book-width : $content__main-width - 80px;
+$code-width : $content__book-width - 40px;
+$toc_width : 268px;
 $toc__hamburger-size: 50px;
 $toc__hamburger-bgcolor: #c52f24;
 

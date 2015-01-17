@@ -1,4 +1,10 @@
-body #sidebar {
+body.book #sidebar {
   // position: absolute;
-  // right: 20px;
+  // float: none;
+  right: 0px;
+  margin-right: - $content-width / 8;
+  #navtool {
+    // position: relative;
+    // top: 0;
+  }
 }

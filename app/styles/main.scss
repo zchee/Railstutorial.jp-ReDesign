@@ -1,24 +1,14 @@
-@import "assets/hp5b";
-@import "assets/normalize";
-@import "assets/polytexnic";
-@import "assets/screen";
+@import 'assets/hp5b';
+@import 'assets/normalize';
+@import 'assets/polytexnic';
+@import 'assets/screen';
 
-@import "mixin/dimensions";
+@import 'mixin/dimensions';
 
-@import "global/font";
-@import "global/codehight";
+@import 'font';
+@import 'codehight';
 
-@import "container";
-@import "sidebar";
-@import "toc";
-@import "heading";
-
-
-html,
-body {
-  // overflow: scroll;
-
-  // background: rgba(92, 92, 92, 1);
-  // background-attachment: scroll;
-  // background-image: none;
-}
+@import 'container';
+@import 'sidebar';
+@import 'toc';
+@import 'heading';

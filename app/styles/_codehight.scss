@@ -1,11 +1,11 @@
 body.book #content #book {
   .code {
     .highlight {
-      width: 830px;
+      width: $code-width;
       padding-right: 0;
       margin: 0 20px;
       & * {
-        font-family: "Kibitaki", "Ricty", "Source Code Pro", Inconsolata, Menlo;
+        font-family: 'Source Code Pro', 'Inconsolata', 'Menlo', sans-serif;
         font-size: 100%;
         line-height: 1.4em;
       }
@@ -19,19 +19,19 @@ body.book #content #book {
   }
   .codelisting {
     .listing {
-      width: 830px;
+      width: $code-width;
       margin: 0 20px;
 
-      color: #fff;
+      color: #333;
 
-      background: #009688;
+      background: #90CAF9;
       border: 1px solid rgb(153, 153, 153);
       border-bottom: none;
       .header {
         display: inline-block;
         padding: .3em .3em;
 
-        line-height: 1em .5em;
+        line-height: .5em;
       }
       .description {
         &:last-child {
@@ -43,7 +43,7 @@ body.book #content #book {
 
           background: #e0e0e0;
           &:before {
-            content: "file: ";
+            content: 'file: ';
           }
         }
       }

@@ -1,4 +1,3 @@
-
 (function() {
 var last_timestamp, reload_interval;
 

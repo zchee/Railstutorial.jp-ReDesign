@@ -1,10 +1,13 @@
 'use strict';
 
 
-(function() {
+(function () {
   var link = document.getElementsByTagName('link');
   link[0].parentNode.removeChild(link[0]);
   link[1].parentNode.removeChild(link[1]);
+  console.log('test');
+  console.log('test2');
+  console.log('test3');
 
 
   function toggleClass(element, className) {
@@ -16,7 +19,8 @@
     var nameIndex = classString.indexOf(className);
 
     if (nameIndex === -1) {
-      if (classString.length) {} else {
+      if (classString.length) {
+      } else {
         classString += className;
       }
     } else {
@@ -29,16 +33,16 @@
   var container = document.getElementById('container');
   var tableOfContents = document.getElementById('table_of_contents');
   var tableOfContentsClone = tableOfContents.cloneNode(true);
+  tableOfContents.parentNode.removeChild(tableOfContents);
 
-
-  toggleClass(tableOfContents, 'hidden');
+  var sidebar = document.getElementById('sidebar');
+  sidebar.parentNode.removeChild(sidebar);
 
 
   var drawerInput = document.createElement('input');
   drawerInput.type = 'checkbox';
   drawerInput.id = 'drawer-toggle-checkbox';
   drawerInput.setAttribute('drawer', 'drawer-toggle-checkbox');
-  drawerInput.setAttribute('checked', 'checked');
   document.body.insertBefore(drawerInput, container);
 
   var drawerLabel = document.createElement('label');
@@ -49,14 +53,14 @@
   document.body.insertBefore(tableOfContentsClone, container);
 
 
-  window.onload = function() {
+  window.onload = function () {
 
     var heading = document.querySelectorAll('.heading');
     var sections = {};
     var i = 0;
 
-    Array.prototype.forEach.call(heading, function(e) {
-      sections[e.id] = e.parentNode.offsetTop -1;
+    Array.prototype.forEach.call(heading, function (e) {
+      sections[e.id] = e.parentNode.offsetTop - 1;
     });
 
 
@@ -66,19 +70,11 @@
     var tocOl = document.querySelectorAll('#table_of_contents > ol');
     var tocOlChildNodesLi = tocOl[0].childNodes;
     var locationUrl = location.href.match(/(.+)\?(.+)/);
-    // console.log('1: locationUrl[1]', locationUrl[1]);
 
     for (var i = 0; i < tocOlChildNodesLi.length; i++) {
-      // console.log('2: tocOlChildNodesLi', tocOlChildNodesLi);
       if (tocOlChildNodesLi[i].childNodes[0].href) {
-        // console.log('3: tocOlChildNodesLi[i]', tocOlChildNodesLi[i]);
-        // console.log('4: tocOlChildNodesLi[i].nextSibling', tocOlChildNodesLi[i].nextSibling);
-        // console.log('5: tocOlChildNodesLi[i].childNodes[0].href', tocOlChildNodesLi[i].childNodes[0].href);
         var tocOlChildNodesLiChildNodesAHref = tocOlChildNodesLi[i].childNodes[0].href;
         var tocOlChildNodesLiChildNodesAHrefUrl = tocOlChildNodesLiChildNodesAHref.match(/(.+)\?(.+)/);
-        // console.log('6: tocOlChildNodesLiChildNodesAHref', tocOlChildNodesLiChildNodesAHref);
-        // console.log('7: tocOlChildNodesLiChildNodesAHrefUrl[1]', tocOlChildNodesLiChildNodesAHrefUrl[1]);
-          // console.log('8: tocOlChildNodesLiChildNodesAHrefUrl[1] !== locationUrl[1]', tocOlChildNodesLiChildNodesAHrefUrl[1] !== locationUrl[1]);
         if (tocOlChildNodesLiChildNodesAHrefUrl[1] !== locationUrl[1]) {
           tocOlChildNodesLi[i].parentNode.removeChild(tocOlChildNodesLi[i].nextSibling);
         }
@@ -86,7 +82,7 @@
     }
 
 
-    window.onscroll = function() {
+    window.onscroll = function () {
       var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
       var n = 0;

@@ -42,5 +42,8 @@
     "http://*/*",
     "https://*/*",
     "http://railstutorial.jp/*"
+  ],
+  "web_accessible_resources": [
+    "fonts/*.*"
   ]
 }
